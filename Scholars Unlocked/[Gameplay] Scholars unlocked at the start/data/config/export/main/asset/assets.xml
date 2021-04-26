@@ -165,6 +165,20 @@
     </GoodConsumptionUpgrade>
   </ModOp>
 
+  <!-- [NEW] Costume Designer now affects Tailor Shops -->
+  <ModOp Type="Replace" GUID="191348" Path="/Values/ItemEffect">
+    <ItemEffect>
+      <EffectTargets>
+        <Item>
+          <GUID>1010325</GUID>
+        </Item>
+        <Item>
+          <GUID>118734</GUID>
+        </Item>
+      </EffectTargets>
+    </ItemEffect>
+  </ModOp>
+
   <!-- Replace scholar needs -->
   <ModOp Type="Replace" GUID="118745" Path="/Values/PopulationLevel7/PopulationInputs">
     <PopulationInputs>
