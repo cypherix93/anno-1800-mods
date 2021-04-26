@@ -1,0 +1,771 @@
+<ModOps>
+  <!-- Scholor Residence construction cost -->
+  <ModOp Type="replace" GUID='114445' Path="/Values/Cost/Costs">
+    <Costs>
+      <Item>
+        <Ingredient>1010017</Ingredient>
+        <Amount>100</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010196</Ingredient>
+        <Amount>10</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+
+  
+  <!-- Research Institute construction cost -->
+  <ModOp Type="replace" GUID='118938' Path="/Values/Cost/Costs">
+    <Costs>
+      <Item>
+        <Ingredient>1010017</Ingredient>
+        <Amount>1000</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010196</Ingredient>
+        <Amount>50</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+
+
+  <!-- Research Institute stage 1 Building cost -->
+  <ModOp Type="replace" GUID='118938' Path="/Values/FactoryBase/FactoryInputs">
+    <FactoryInputs>
+      <Item>
+        <Product>1010196</Product>
+        <Amount>5</Amount>
+        <StorageAmount>100</StorageAmount>
+      </Item>
+      <Item>
+        <Product>120008</Product>
+        <Amount>5</Amount>
+        <StorageAmount>100</StorageAmount>
+      </Item>
+    </FactoryInputs>
+  </ModOp>
+
+
+  <!-- Research Institute stage 1 workforce -->
+  <ModOp Type="replace" GUID='118938' Path="/Values/Maintenance/Maintenances">
+    <Maintenances>
+      <Item>
+         <Product>1010052</Product>
+         <Amount>50</Amount>
+         <ShutdownThreshold>0.4</ShutdownThreshold>
+      </Item>
+    </Maintenances>
+  </ModOp>
+
+
+
+  <!-- Research Institute stage 2 Building cost -->
+  <ModOp Type="replace" GUID='118939' Path="/Values/FactoryBase/FactoryInputs">
+    <FactoryInputs>
+      <Item>
+        <Product>120008</Product>
+        <Amount>5</Amount>
+        <StorageAmount>150</StorageAmount>
+      </Item>
+      <Item>
+        <Product>1010205</Product>
+        <Amount>5</Amount>
+        <StorageAmount>50</StorageAmount>
+      </Item>
+    </FactoryInputs>
+  </ModOp>
+
+
+  <!-- Research Institute stage 2 workforce -->
+  <ModOp Type="replace" GUID='118939' Path="/Values/Maintenance/Maintenances">
+    <Maintenances>
+      <Item>
+        <Product>1010115</Product>
+        <Amount>50</Amount>
+        <ShutdownThreshold>0.4</ShutdownThreshold>
+      </Item>
+    </Maintenances>
+  </ModOp>  
+
+
+  <!-- Tailor's Shop upkeep and workforce -->
+  <ModOp Type="replace" GUID='118734' Path="/Values/Maintenance/Maintenances">
+                                   <Maintenances>
+                                    <Item>
+                                      <Product>1010017</Product>
+                                      <Amount>50</Amount>
+                                      <InactiveAmount>25</InactiveAmount>
+                                    </Item>
+                                    <Item>
+                                      <Product>1010115</Product>
+                                      <Amount>20</Amount>
+                                    </Item>
+                                  </Maintenances>
+  </ModOp>   
+
+  <!-- Tailor's Shop replaced input (wool) -->
+  <ModOp Type="replace" GUID='118734' Path="/Values/FactoryBase/FactoryInputs">
+    <FactoryInputs>
+      <Item>
+        <Product>1010197</Product>
+        <Amount>1</Amount>
+        <StorageAmount>3</StorageAmount>
+      </Item>
+    </FactoryInputs>
+  </ModOp>  
+  
+  <!-- Tailor's Shop construction cost -->
+  <ModOp Type="replace" GUID='118734' Path="/Values/Cost/Costs">
+    <Costs>
+      <Item>
+        <Ingredient>1010017</Ingredient>
+        <Amount>100</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010196</Ingredient>
+        <Amount>20</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+
+
+  <!-- Bootmakers upkeep and workforce -->
+  <ModOp Type="replace" GUID='118733' Path="/Values/Maintenance/Maintenances">
+                                   <Maintenances>
+                                    <Item>
+                                      <Product>1010017</Product>
+                                      <Amount>50</Amount>
+                                      <InactiveAmount>25</InactiveAmount>
+                                    </Item>
+                                    <Item>
+                                      <Product>1010115</Product>
+                                      <Amount>20</Amount>
+                                    </Item>
+                                  </Maintenances>
+  </ModOp>   
+
+  <!-- Bootmakers replaced input (pigs)-->
+  <ModOp Type="replace" GUID='118733' Path="/Values/FactoryBase/FactoryInputs">
+    <FactoryInputs>
+      <Item>
+        <Product>1010199</Product>
+        <Amount>1</Amount>
+        <StorageAmount>3</StorageAmount>
+      </Item>
+    </FactoryInputs>
+  </ModOp>  
+  
+  <!-- Bootmakers construction cost-->
+  <ModOp Type="replace" GUID='118733' Path="/Values/Cost/Costs">
+    <Costs>
+      <Item>
+        <Ingredient>1010017</Ingredient>
+        <Amount>100</Amount>
+      </Item>
+      <Item>
+        <Ingredient>1010196</Ingredient>
+        <Amount>20</Amount>
+      </Item>
+    </Costs>
+  </ModOp>
+
+  <!-- advanced coffee roaster upkeep and workforce -->
+  <ModOp Type="replace" GUID='124738' Path="/Values/Maintenance/Maintenances">
+                                   <Maintenances>
+                                    <Item>
+                                      <Product>1010017</Product>
+                                      <Amount>2500</Amount>
+                                      <InactiveAmount>1250</InactiveAmount>
+                                    </Item>
+                                    <Item>
+                                      <Product>1010116</Product>
+                                      <Amount>100</Amount>
+                                    </Item>
+                                  </Maintenances>
+  </ModOp>   
+  
+  <!-- advanced coffee roaster construction cost -->
+  <ModOp Type="replace" GUID='124738' Path="/Values/Cost/Costs">
+                                  <Costs>
+                                    <Item>
+                                      <Ingredient>1010017</Ingredient>
+                                      <Amount>12000</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010196</Ingredient>
+                                      <Amount>20</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010205</Ingredient>
+                                      <Amount>10</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>3</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>20</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>4</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>5</Amount>
+                                    </Item>
+                                  </Costs>
+  </ModOp>
+
+  <!-- advanced rum maker upkeep and workforce -->
+  <ModOp Type="replace" GUID='124737' Path="/Values/Maintenance/Maintenances">
+                                   <Maintenances>
+                                    <Item>
+                                      <Product>1010017</Product>
+                                      <Amount>2000</Amount>
+                                      <InactiveAmount>1000</InactiveAmount>
+                                    </Item>
+                                    <Item>
+                                      <Product>1010116</Product>
+                                      <Amount>80</Amount>
+                                    </Item>
+                                  </Maintenances>
+  </ModOp>   
+  
+  <!-- advanced rum maker construction cost -->
+  <ModOp Type="replace" GUID='124737' Path="/Values/Cost/Costs">
+                                  <Costs>
+                                    <Item>
+                                      <Ingredient>1010017</Ingredient>
+                                      <Amount>12000</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010196</Ingredient>
+                                      <Amount>30</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>2</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>10</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>3</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>30</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>4</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                    </Item>
+                                  </Costs>
+  </ModOp>
+
+    <!-- advanced cotton mill upkeep and workforce -->
+  <ModOp Type="replace" GUID='124739' Path="/Values/Maintenance/Maintenances">
+                                   <Maintenances>
+                                    <Item>
+                                      <Product>1010017</Product>
+                                      <Amount>2300</Amount>
+                                      <InactiveAmount>1150</InactiveAmount>
+                                    </Item>
+                                    <Item>
+                                      <Product>1010116</Product>
+                                      <Amount>90</Amount>
+                                    </Item>
+                                  </Maintenances>
+  </ModOp>   
+  
+  <!-- advanced cotton mill construction cost -->
+  <ModOp Type="replace" GUID='124739' Path="/Values/Cost/Costs">
+                                  <Costs>
+                                    <Item>
+                                      <Ingredient>1010017</Ingredient>
+                                      <Amount>12000</Amount>
+                                    </Item>
+                                    <Item>
+                                      <Ingredient>1010196</Ingredient>
+                                      <Amount>45</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>2</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>2</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>30</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>3</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>3</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>10</Amount>
+                                    </Item>
+                                    <Item>
+                                      <VectorElement>
+                                        <InheritedIndex>4</InheritedIndex>
+                                        <InheritanceMapV2>
+                                          <Entry>
+                                            <TemplateName>FactoryBuilding7_BuildPermit</TemplateName>
+                                            <Index>4</Index>
+                                          </Entry>
+                                        </InheritanceMapV2>
+                                      </VectorElement>
+                                      <Amount>10</Amount>
+                                    </Item>
+                                  </Costs>
+  </ModOp>
+  
+
+
+  <!-- Item related Changes-->
+  <ModOp Type="remove" GUID='125139' Path="/Values/FactoryUpgrade/ReplaceInputs">
+  </ModOp>
+
+  <ModOp Type="add" GUID='125139' Path="/Values/FactoryUpgrade/ProductivityUpgrade">
+                              <ProductivityUpgrade>
+                                <Value>50</Value>
+                                <Percental>1</Percental>
+                              </ProductivityUpgrade>
+  </ModOp>
+  
+  <ModOp Type="replace" GUID='125114' Path="/Values/PopulationUpgrade/InputBenefitModifier/Item">
+                                <Item>
+                                  <Product>120032</Product>
+                                  <AdditionalHappiness>10</AdditionalHappiness>
+                                  <AdditionalResearch>4</AdditionalResearch>
+                                </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='125114' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+                              <GoodConsumptionUpgrade>
+                                <Item>
+                                  <ProvidedNeed>120032</ProvidedNeed>
+                                  <AmountInPercent>-30</AmountInPercent>
+                                </Item>
+                              </GoodConsumptionUpgrade>
+  </ModOp>
+  
+  <ModOp Type="replace" GUID='125144' Path="/Values/PopulationUpgrade/InputBenefitModifier">
+                              <InputBenefitModifier>
+                                <Item>
+                                  <Product>120032</Product>
+                                  <AdditionalResearch>1</AdditionalResearch>
+                                </Item>
+                                <Item>
+                                  <Product>1010213</Product>
+                                  <AdditionalResearch>1</AdditionalResearch>
+                                </Item>
+                                <Item>
+                                  <Product>1010246</Product>
+                                  <AdditionalResearch>1</AdditionalResearch>
+                                </Item>
+                                <Item>
+                                  <Product>1010259</Product>
+                                  <AdditionalResearch>1</AdditionalResearch>
+                                </Item>
+                              </InputBenefitModifier>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='125145' Path="/Values/PopulationUpgrade/InputBenefitModifier">
+                              <InputBenefitModifier>
+                                <Item>
+                                  <Product>120032</Product>
+                                  <AdditionalHappiness>3</AdditionalHappiness>
+                                </Item>
+                                <Item>
+                                  <Product>1010213</Product>
+                                  <AdditionalHappiness>3</AdditionalHappiness>
+                                </Item>
+                              </InputBenefitModifier>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='125146' Path="/Values/PopulationUpgrade/InputBenefitModifier">
+                              <InputBenefitModifier>
+                                <Item>
+                                  <Product>1010246</Product>
+                                  <AdditionalHappiness>4</AdditionalHappiness>
+                                </Item>
+                                <Item>
+                                  <Product>1010259</Product>
+                                  <AdditionalHappiness>4</AdditionalHappiness>
+                                </Item>
+                              </InputBenefitModifier>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='125146' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+                              <GoodConsumptionUpgrade>
+                                <Item>
+                                  <ProvidedNeed>1010246</ProvidedNeed>
+                                  <AmountInPercent>-20</AmountInPercent>
+                                </Item>
+                                <Item>
+                                  <ProvidedNeed>1010259</ProvidedNeed>
+                                  <AmountInPercent>-20</AmountInPercent>
+                                </Item>
+                              </GoodConsumptionUpgrade>
+  </ModOp>
+  
+
+
+
+  <!-- Remove Electricity requirement -->
+  <ModOp Type="remove" GUID='500954' Path="/Values/Locked"/>
+  <ModOp Type="remove" GUID='124739' Path="/Values/Industrializable/MandatoryIndustrialization"/>
+  <ModOp Type="remove" GUID='124737' Path="/Values/Industrializable/MandatoryIndustrialization"/>
+  <ModOp Type="remove" GUID='124738' Path="/Values/Industrializable/MandatoryIndustrialization"/>
+  <ModOp Type="remove" GUID='118940' Path="/Values/Industrializable/MandatoryIndustrialization"/>
+  <ModOp Type="remove" GUID='118734' Path="/Values/Industrializable/MandatoryIndustrialization"/>
+  <ModOp Type="remove" GUID='118940' Path="/Values/Electrifiable"/>
+
+
+
+  <!-- Replace scholar needs -->
+<ModOp Type="replace" GUID='118745' Path="/Values/PopulationLevel7/PopulationInputs">
+                     <PopulationInputs>
+			<!-- Pub -->
+                        <Item>
+                          <Product>1010349</Product>
+                          <SupplyWeight>12</SupplyWeight>
+                          <ResearchValue>1</ResearchValue>
+                        </Item>
+			<!-- Suits -->
+                        <Item>
+                          <Product>114430</Product>
+                          <Amount>0.00275</Amount>
+                          <SupplyWeight>23</SupplyWeight>
+                          <ResearchValue>4</ResearchValue>
+                          <FullWeightPopulationCount>200</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>99</NoWeightPopulationCount>
+                        </Item>
+			<!-- Bread -->
+                        <Item>
+                          <Product>1010213</Product>
+                          <Amount>0.00030303</Amount>
+                          <SupplyWeight>19</SupplyWeight>
+                          <ResearchValue>2</ResearchValue>
+                          <FullWeightPopulationCount>400</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>199</NoWeightPopulationCount>
+                        </Item>
+			<!-- Canned Food -->
+                        <Item>
+                          <Product>1010217</Product>
+                          <Amount>0.001</Amount>
+                          <SupplyWeight>10</SupplyWeight>
+                          <ResearchValue>1</ResearchValue>
+                          <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>749</NoWeightPopulationCount>
+                        </Item>
+			<!-- University-->
+                        <Item>
+                          <Product>1010353</Product>
+                          <SupplyWeight>12</SupplyWeight>
+                          <ResearchValue>2</ResearchValue>
+                          <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Schnapps -->
+                        <Item>
+                          <Product>1010216</Product>
+                          <Amount>0.002</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>1</ResearchValue>
+                        </Item>
+			<!-- Leather Shoes -->
+                        <Item>
+                          <Product>114428</Product>
+                          <Amount>0.002</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>3</ResearchValue>
+                          <FullWeightPopulationCount>200</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>99</NoWeightPopulationCount>
+                        </Item>
+			<!-- Rum -->
+                        <Item>
+                          <Product>1010257</Product>
+                          <Amount>0.0008</Amount>
+                          <HappinessValue>2</HappinessValue>
+                          <ResearchValue>2</ResearchValue>
+                          <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Bowler Hats -->
+                        <Item>
+                          <Product>120037</Product>
+                          <Amount>0.0008</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>2</ResearchValue>
+                          <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+                        </Item>
+			<!-- Coffee -->
+                        <Item>
+                          <Product>120032</Product>
+                          <Amount>0.00175</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>3</ResearchValue>
+                          <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Electricity -->
+                        <Item>
+                          <Product>1010354</Product>
+                          <SupplyWeight>12</SupplyWeight>
+                          <ResearchValue>1</ResearchValue>
+                          <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Pocket Watch -->
+                        <Item>
+                          <Product>1010246</Product>
+                          <Amount>0.000125</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>3</ResearchValue>
+                          <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Cigar -->
+                        <Item>
+                          <Product>1010259</Product>
+                          <Amount>0.000075</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>4</ResearchValue>
+                          <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Telephone -->
+                        <Item>
+                          <Product>114431</Product>
+                          <Amount>0.0015</Amount>
+                          <SupplyWeight>20</SupplyWeight>
+                          <ResearchValue>2</ResearchValue>
+                          <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Radio Tower -->
+                        <Item>
+                          <Product>114425</Product>
+                          <SupplyWeight>12</SupplyWeight>
+                          <ResearchValue>1</ResearchValue>
+                          <FullWeightPopulationCount>9000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+                        </Item>
+			<!-- Gramophones -->
+                        <Item>
+                          <Product>1010248</Product>
+                          <Amount>0.0007</Amount>
+                          <HappinessValue>3</HappinessValue>
+                          <ResearchValue>2</ResearchValue>
+                          <FullWeightPopulationCount>9000</FullWeightPopulationCount>
+                          <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+                          <AdditionalUnlockRequirement>
+                            <Population>15000004</Population>
+                            <MinPopulationAmount>3000</MinPopulationAmount>
+                            <UseGlobalMaxEverReachedPopulationCount>1</UseGlobalMaxEverReachedPopulationCount>
+                          </AdditionalUnlockRequirement>
+                        </Item>
+    </PopulationInputs>
+  </ModOp>
+
+
+  <!-- Research workforce -->
+  <ModOp Type="replace" GUID='120244' Path="/Values/ResearchFeature/ItemCraftingWorkforce">
+    <ItemCraftingWorkforce>1010115</ItemCraftingWorkforce>
+  </ModOp>
+
+  <!-- Research workforce -->
+  <ModOp Type="replace" GUID='118940' Path="/Values/Maintenance/Maintenances">
+    <Maintenances>
+      <Item>
+        <Product>1010115</Product>
+      </Item>
+    </Maintenances>
+  </ModOp>  
+
+  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceAmount'>
+        <MaximumWorkforceAmount>50</MaximumWorkforceAmount>
+  </ModOp>
+
+  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MinimumWorkforceAmount'>
+        <MinimumWorkforceAmount>10</MinimumWorkforceAmount>
+  </ModOp>
+
+  <ModOp Path = "//Godlike/CraftingConfig/MinimumWorkforceAmount" Type = "replace">
+        <MinimumWorkforceAmount>10</MinimumWorkforceAmount>
+  </ModOp>
+  <ModOp Path = "//Godlike/CraftingConfig/MaximumWorkforceAmount" Type = "replace">
+        <MaximumWorkforceAmount>50</MaximumWorkforceAmount>
+  </ModOp>
+
+
+  <!-- Production chains for Tailors shop and bootmakers -->
+ <ModOp Type="replace" GUID='118737' Path="/Values/ProductionChain">
+    <ProductionChain>
+                                <Building>118733</Building>
+                                  <Tier1>
+                                    <Item>
+                                      <Building>1010269</Building>
+                                    </Item>
+                                  </Tier1>
+    </ProductionChain>
+  </ModOp>
+
+  <ModOp Type="replace" GUID='118738' Path="/Values/ProductionChain">
+    <ProductionChain>
+                                <Building>118734</Building>
+                                  <Tier1>
+                                    <Item>
+                                      <Building>1010267</Building>
+                                    </Item>
+                                  </Tier1>
+    </ProductionChain>
+  </ModOp>
+
+  <!-- Unlock all Scholar related stuff -->
+ <ModOp Type="addNextSibling" GUID='130248'>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>424242</GUID>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>118733</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118734</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118938</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118939</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118940</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>114445</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118737</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>127050</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>114445</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118738</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>120290</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>120286</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>120287</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>120288</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>120289</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118739</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118736</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>124740</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>124741</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>124742</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+	      <TriggerAction>
+		<Template>ActionAddResource</Template>
+                  <Values>
+                     <Action />
+                     <ActionAddResource>
+                        <Resource>114445</Resource>
+                        <ResourceAmount>10</ResourceAmount>
+                     </ActionAddResource>
+                 </Values>
+	     </TriggerAction>
+           </Item>
+          </TriggerActions>
+        </Trigger>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+</ModOps>
