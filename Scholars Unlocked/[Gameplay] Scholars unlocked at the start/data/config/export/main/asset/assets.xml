@@ -42,16 +42,41 @@
       </Tier1>
     </ProductionChain>
   </ModOp>
-  <!-- Bootmakers replaced input (pigs)-->
-  <ModOp Type="replace" GUID='118733' Path="/Values/FactoryBase/FactoryInputs">
+
+  <!-- Bootmakers replaced input -->
+  <ModOp Type="Replace" GUID="118733" Path="/Values/FactoryBase/FactoryInputs">
     <FactoryInputs>
+      <!-- Pigs -->
       <Item>
         <Product>1010199</Product>
         <Amount>1</Amount>
         <StorageAmount>3</StorageAmount>
       </Item>
+      <!-- Caoutchouc -->
+      <Item>
+        <Product>1010255</Product>
+        <Amount>1</Amount>
+        <StorageAmount>3</StorageAmount>
+      </Item>
     </FactoryInputs>
-  </ModOp>  
+  </ModOp>
+
+  <!-- Production chain for Bootmakers -->
+  <ModOp Type="Replace" GUID="118737" Path="/Values/ProductionChain">
+    <ProductionChain>
+      <Building>118733</Building>
+      <Tier1>
+        <!-- Pigs -->
+        <Item>
+          <Building>1010269</Building>
+        </Item>
+        <!-- [NEW] Caoutchouc Plantation -->
+        <Item>
+          <Building>1010333</Building>
+        </Item>
+      </Tier1>
+    </ProductionChain>
+  </ModOp>
 
   <!-- Item related Changes-->
   <ModOp Type="remove" GUID='125139' Path="/Values/FactoryUpgrade/ReplaceInputs">
