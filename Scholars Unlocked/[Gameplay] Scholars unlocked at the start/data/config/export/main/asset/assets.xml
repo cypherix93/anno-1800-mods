@@ -168,204 +168,150 @@
 
 
   <!-- Replace scholar needs -->
-<ModOp Type="replace" GUID='118745' Path="/Values/PopulationLevel7/PopulationInputs">
-                     <PopulationInputs>
-			<!-- Pub -->
-                        <Item>
-                          <Product>1010349</Product>
-                          <SupplyWeight>12</SupplyWeight>
-                          <ResearchValue>1</ResearchValue>
-                        </Item>
-			<!-- Suits -->
-                        <Item>
-                          <Product>114430</Product>
-                          <Amount>0.00275</Amount>
-                          <SupplyWeight>23</SupplyWeight>
-                          <ResearchValue>4</ResearchValue>
-                          <FullWeightPopulationCount>200</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>99</NoWeightPopulationCount>
-                        </Item>
-			<!-- Bread -->
-                        <Item>
-                          <Product>1010213</Product>
-                          <Amount>0.00030303</Amount>
-                          <SupplyWeight>19</SupplyWeight>
-                          <ResearchValue>2</ResearchValue>
-                          <FullWeightPopulationCount>400</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>199</NoWeightPopulationCount>
-                        </Item>
-			<!-- Canned Food -->
-                        <Item>
-                          <Product>1010217</Product>
-                          <Amount>0.001</Amount>
-                          <SupplyWeight>10</SupplyWeight>
-                          <ResearchValue>1</ResearchValue>
-                          <FullWeightPopulationCount>1500</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>749</NoWeightPopulationCount>
-                        </Item>
-			<!-- University-->
-                        <Item>
-                          <Product>1010353</Product>
-                          <SupplyWeight>12</SupplyWeight>
-                          <ResearchValue>2</ResearchValue>
-                          <FullWeightPopulationCount>2000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Schnapps -->
-                        <Item>
-                          <Product>1010216</Product>
-                          <Amount>0.002</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>1</ResearchValue>
-                        </Item>
-			<!-- Leather Shoes -->
-                        <Item>
-                          <Product>114428</Product>
-                          <Amount>0.002</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>3</ResearchValue>
-                          <FullWeightPopulationCount>200</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>99</NoWeightPopulationCount>
-                        </Item>
-			<!-- Rum -->
-                        <Item>
-                          <Product>1010257</Product>
-                          <Amount>0.0008</Amount>
-                          <HappinessValue>2</HappinessValue>
-                          <ResearchValue>2</ResearchValue>
-                          <FullWeightPopulationCount>2000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Bowler Hats -->
-                        <Item>
-                          <Product>120037</Product>
-                          <Amount>0.0008</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>2</ResearchValue>
-                          <FullWeightPopulationCount>3000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>1499</NoWeightPopulationCount>
-                        </Item>
-			<!-- Coffee -->
-                        <Item>
-                          <Product>120032</Product>
-                          <Amount>0.00175</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>3</ResearchValue>
-                          <FullWeightPopulationCount>4000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Electricity -->
-                        <Item>
-                          <Product>1010354</Product>
-                          <SupplyWeight>12</SupplyWeight>
-                          <ResearchValue>1</ResearchValue>
-                          <FullWeightPopulationCount>4000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Pocket Watch -->
-                        <Item>
-                          <Product>1010246</Product>
-                          <Amount>0.000125</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>3</ResearchValue>
-                          <FullWeightPopulationCount>4000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>1999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Cigar -->
-                        <Item>
-                          <Product>1010259</Product>
-                          <Amount>0.000075</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>4</ResearchValue>
-                          <FullWeightPopulationCount>7000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>3999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Telephone -->
-                        <Item>
-                          <Product>114431</Product>
-                          <Amount>0.0015</Amount>
-                          <SupplyWeight>20</SupplyWeight>
-                          <ResearchValue>2</ResearchValue>
-                          <FullWeightPopulationCount>7000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>3999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Radio Tower -->
-                        <Item>
-                          <Product>114425</Product>
-                          <SupplyWeight>12</SupplyWeight>
-                          <ResearchValue>1</ResearchValue>
-                          <FullWeightPopulationCount>9000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>6999</NoWeightPopulationCount>
-                        </Item>
-			<!-- Gramophones -->
-                        <Item>
-                          <Product>1010248</Product>
-                          <Amount>0.0007</Amount>
-                          <HappinessValue>3</HappinessValue>
-                          <ResearchValue>2</ResearchValue>
-                          <FullWeightPopulationCount>9000</FullWeightPopulationCount>
-                          <NoWeightPopulationCount>6999</NoWeightPopulationCount>
-                          <AdditionalUnlockRequirement>
-                            <Population>15000004</Population>
-                            <MinPopulationAmount>3000</MinPopulationAmount>
-                            <UseGlobalMaxEverReachedPopulationCount>1</UseGlobalMaxEverReachedPopulationCount>
-                          </AdditionalUnlockRequirement>
-                        </Item>
-    </PopulationInputs>
-  </ModOp>
-
-
-  <!-- Research workforce -->
-  <ModOp Type="replace" GUID='120244' Path="/Values/ResearchFeature/ItemCraftingWorkforce">
-    <ItemCraftingWorkforce>1010115</ItemCraftingWorkforce>
-  </ModOp>
-
-  <!-- Research workforce -->
-  <ModOp Type="replace" GUID='118940' Path="/Values/Maintenance/Maintenances">
-    <Maintenances>
+  <ModOp Type="Replace" GUID="118745" Path="/Values/PopulationLevel7/PopulationInputs">
+    <PopulationInputs>
+      <!-- [NEW] Pub -->
       <Item>
-        <Product>1010115</Product>
+        <Product>1010349</Product>
+        <SupplyWeight>12</SupplyWeight>
+        <ResearchValue>1</ResearchValue>
       </Item>
-    </Maintenances>
-  </ModOp>  
-
-  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceAmount'>
-        <MaximumWorkforceAmount>50</MaximumWorkforceAmount>
-  </ModOp>
-
-  <ModOp GUID = '120244' Type = "replace" Path = '/Values/ResearchFeature/ItemCraftingConfig/*/MinimumWorkforceAmount'>
-        <MinimumWorkforceAmount>10</MinimumWorkforceAmount>
-  </ModOp>
-
-  <ModOp Path = "//Godlike/CraftingConfig/MinimumWorkforceAmount" Type = "replace">
-        <MinimumWorkforceAmount>10</MinimumWorkforceAmount>
-  </ModOp>
-  <ModOp Path = "//Godlike/CraftingConfig/MaximumWorkforceAmount" Type = "replace">
-        <MaximumWorkforceAmount>50</MaximumWorkforceAmount>
-  </ModOp>
-
-
-  <!-- Production chains for Tailors shop and bootmakers -->
- <ModOp Type="replace" GUID='118737' Path="/Values/ProductionChain">
-    <ProductionChain>
-                                <Building>118733</Building>
-                                  <Tier1>
-                                    <Item>
-                                      <Building>1010269</Building>
-                                    </Item>
-                                  </Tier1>
-    </ProductionChain>
-  </ModOp>
-
-  <ModOp Type="replace" GUID='118738' Path="/Values/ProductionChain">
-    <ProductionChain>
-                                <Building>118734</Building>
-                                  <Tier1>
-                                    <Item>
-                                      <Building>1010267</Building>
-                                    </Item>
-                                  </Tier1>
-    </ProductionChain>
+      <!-- Suits -->
+      <Item>
+        <Product>114430</Product>
+        <Amount>0.00275</Amount>
+        <SupplyWeight>23</SupplyWeight>
+        <ResearchValue>4</ResearchValue>
+        <FullWeightPopulationCount>200</FullWeightPopulationCount>
+        <NoWeightPopulationCount>99</NoWeightPopulationCount>
+      </Item>
+      <!-- [CHANGED] Bread (Seafood Stew) -->
+      <Item>
+        <Product>1010213</Product>
+        <Amount>0.00030303</Amount>
+        <SupplyWeight>10</SupplyWeight>
+        <ResearchValue>2</ResearchValue>
+        <FullWeightPopulationCount>400</FullWeightPopulationCount>
+        <NoWeightPopulationCount>199</NoWeightPopulationCount>
+      </Item>
+      <!-- Canned Food -->
+      <Item>
+        <Product>1010217</Product>
+        <Amount>0.001</Amount>
+        <SupplyWeight>19</SupplyWeight>
+        <ResearchValue>1</ResearchValue>
+        <FullWeightPopulationCount>1500</FullWeightPopulationCount>
+        <NoWeightPopulationCount>749</NoWeightPopulationCount>
+      </Item>
+      <!-- University-->
+      <Item>
+        <Product>1010353</Product>
+        <SupplyWeight>12</SupplyWeight>
+        <ResearchValue>2</ResearchValue>
+        <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>999</NoWeightPopulationCount>
+      </Item>
+      <!-- [NEW] Schnapps -->
+      <Item>
+        <Product>1010216</Product>
+        <Amount>0.002</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>1</ResearchValue>
+      </Item>
+      <!-- Leather Shoes -->
+      <Item>
+        <Product>114428</Product>
+        <Amount>0.002</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>3</ResearchValue>
+        <FullWeightPopulationCount>200</FullWeightPopulationCount>
+        <NoWeightPopulationCount>99</NoWeightPopulationCount>
+      </Item>
+      <!-- Rum -->
+      <Item>
+        <Product>1010257</Product>
+        <Amount>0.0008</Amount>
+        <HappinessValue>2</HappinessValue>
+        <ResearchValue>2</ResearchValue>
+        <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>999</NoWeightPopulationCount>
+      </Item>
+      <!-- Bowler Hats -->
+      <Item>
+        <Product>120037</Product>
+        <Amount>0.0008</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>2</ResearchValue>
+        <FullWeightPopulationCount>3000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>1499</NoWeightPopulationCount>
+      </Item>
+      <!-- [CHANGED] Coffee (Hibiscus Tea) -->
+      <Item>
+        <Product>120032</Product>
+        <Amount>0.00175</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>3</ResearchValue>
+        <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+      </Item>
+      <!-- Electricity -->
+      <Item>
+        <Product>1010354</Product>
+        <SupplyWeight>12</SupplyWeight>
+        <ResearchValue>1</ResearchValue>
+        <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+      </Item>
+      <!-- [CHANGED] Pocket Watch (Tapestries) -->
+      <Item>
+        <Product>1010246</Product>
+        <Amount>0.000125</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>3</ResearchValue>
+        <FullWeightPopulationCount>4000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>1999</NoWeightPopulationCount>
+      </Item>
+      <!-- [CHANGED] Cigar (Clay Pipes) -->
+      <Item>
+        <Product>1010259</Product>
+        <Amount>0.000075</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>4</ResearchValue>
+        <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+      </Item>
+      <!-- Telephone -->
+      <Item>
+        <Product>114431</Product>
+        <Amount>0.0015</Amount>
+        <SupplyWeight>20</SupplyWeight>
+        <ResearchValue>2</ResearchValue>
+        <FullWeightPopulationCount>7000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>3999</NoWeightPopulationCount>
+      </Item>
+      <!-- Radio Tower -->
+      <Item>
+        <Product>114425</Product>
+        <SupplyWeight>12</SupplyWeight>
+        <ResearchValue>1</ResearchValue>
+        <FullWeightPopulationCount>9000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+      </Item>
+      <!-- Gramophones -->
+      <Item>
+        <Product>1010248</Product>
+        <Amount>0.0007</Amount>
+        <HappinessValue>3</HappinessValue>
+        <ResearchValue>2</ResearchValue>
+        <FullWeightPopulationCount>9000</FullWeightPopulationCount>
+        <NoWeightPopulationCount>6999</NoWeightPopulationCount>
+        <AdditionalUnlockRequirement>
+          <Population>15000004</Population>
+          <MinPopulationAmount>3000</MinPopulationAmount>
+          <UseGlobalMaxEverReachedPopulationCount>1</UseGlobalMaxEverReachedPopulationCount>
+        </AdditionalUnlockRequirement>
+      </Item>
+    </PopulationInputs>
   </ModOp>
 
   <!-- Unlock all Scholar related stuff -->
