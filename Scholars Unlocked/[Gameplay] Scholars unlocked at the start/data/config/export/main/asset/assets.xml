@@ -1,91 +1,9 @@
 <ModOps>
-  <!-- Scholor Residence construction cost -->
-  <ModOp Type="replace" GUID='114445' Path="/Values/Cost/Costs">
-    <Costs>
-      <Item>
-        <Ingredient>1010017</Ingredient>
-        <Amount>100</Amount>
-      </Item>
-      <Item>
-        <Ingredient>1010196</Ingredient>
-        <Amount>10</Amount>
-      </Item>
-    </Costs>
-  </ModOp>
-
-  
-  <!-- Research Institute construction cost -->
-  <ModOp Type="replace" GUID='118938' Path="/Values/Cost/Costs">
-    <Costs>
-      <Item>
-        <Ingredient>1010017</Ingredient>
-        <Amount>1000</Amount>
-      </Item>
-      <Item>
-        <Ingredient>1010196</Ingredient>
-        <Amount>50</Amount>
-      </Item>
-    </Costs>
-  </ModOp>
-
-
-  <!-- Research Institute stage 1 Building cost -->
-  <ModOp Type="replace" GUID='118938' Path="/Values/FactoryBase/FactoryInputs">
-    <FactoryInputs>
-      <Item>
-        <Product>1010196</Product>
-        <Amount>5</Amount>
-        <StorageAmount>100</StorageAmount>
-      </Item>
-      <Item>
-        <Product>120008</Product>
-        <Amount>5</Amount>
-        <StorageAmount>100</StorageAmount>
-      </Item>
-    </FactoryInputs>
-  </ModOp>
-
-
-  <!-- Research Institute stage 1 workforce -->
-  <ModOp Type="replace" GUID='118938' Path="/Values/Maintenance/Maintenances">
-    <Maintenances>
-      <Item>
-         <Product>1010052</Product>
-         <Amount>50</Amount>
-         <ShutdownThreshold>0.4</ShutdownThreshold>
-      </Item>
-    </Maintenances>
-  </ModOp>
 
 
 
-  <!-- Research Institute stage 2 Building cost -->
-  <ModOp Type="replace" GUID='118939' Path="/Values/FactoryBase/FactoryInputs">
-    <FactoryInputs>
-      <Item>
-        <Product>120008</Product>
-        <Amount>5</Amount>
-        <StorageAmount>150</StorageAmount>
-      </Item>
-      <Item>
-        <Product>1010205</Product>
-        <Amount>5</Amount>
-        <StorageAmount>50</StorageAmount>
-      </Item>
-    </FactoryInputs>
-  </ModOp>
 
 
-  <!-- Research Institute stage 2 workforce -->
-  <ModOp Type="replace" GUID='118939' Path="/Values/Maintenance/Maintenances">
-    <Maintenances>
-      <Item>
-        <Product>1010115</Product>
-        <Amount>50</Amount>
-        <ShutdownThreshold>0.4</ShutdownThreshold>
-      </Item>
-    </Maintenances>
-  </ModOp>  
 
 
   <!-- Tailor's Shop upkeep and workforce -->
