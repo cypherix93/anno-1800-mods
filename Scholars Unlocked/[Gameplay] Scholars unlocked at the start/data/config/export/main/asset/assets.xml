@@ -369,7 +369,7 @@
   </ModOp>
 
   <!-- Unlock all Scholar related stuff -->
- <ModOp Type="addNextSibling" GUID='130248'>
+  <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -392,12 +392,7 @@
                   <Action />
                   <ActionUnlockAsset>
                     <UnlockAssets>
-                      <Item>
-                        <Asset>118733</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>118734</Asset>
-                      </Item>
+                      <!-- research institute tiers -->
                       <Item>
                         <Asset>118938</Asset>
                       </Item>
@@ -407,50 +402,9 @@
                       <Item>
                         <Asset>118940</Asset>
                       </Item>
+                      <!-- scholar residence -->
                       <Item>
                         <Asset>114445</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>118737</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>127050</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>114445</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>118738</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>120290</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>120286</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>120287</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>120288</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>120289</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>118739</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>118736</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>124740</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>124741</Asset>
-                      </Item>
-                      <Item>
-                        <Asset>124742</Asset>
                       </Item>
                     </UnlockAssets>
                   </ActionUnlockAsset>
@@ -458,17 +412,17 @@
               </TriggerAction>
             </Item>
             <Item>
-	      <TriggerAction>
-		<Template>ActionAddResource</Template>
-                  <Values>
-                     <Action />
-                     <ActionAddResource>
-                        <Resource>114445</Resource>
-                        <ResourceAmount>10</ResourceAmount>
-                     </ActionAddResource>
-                 </Values>
-	     </TriggerAction>
-           </Item>
+              <TriggerAction>
+                <Template>ActionAddResource</Template>
+                <Values>
+                  <Action />
+                  <ActionAddResource>
+                    <Resource>114445</Resource>
+                    <ResourceAmount>10</ResourceAmount>
+                  </ActionAddResource>
+                </Values>
+              </TriggerAction>
+            </Item>
           </TriggerActions>
         </Trigger>
       </Values>
