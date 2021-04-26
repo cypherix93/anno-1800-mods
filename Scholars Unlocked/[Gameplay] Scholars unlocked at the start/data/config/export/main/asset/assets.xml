@@ -79,93 +79,91 @@
   </ModOp>
 
   <!-- Item related Changes-->
-  <ModOp Type="remove" GUID='125139' Path="/Values/FactoryUpgrade/ReplaceInputs">
+  <ModOp Type="Remove" GUID="125139" Path="/Values/FactoryUpgrade/ReplaceInputs"></ModOp>
+
+  <ModOp Type="Add" GUID="125139" Path="/Values/FactoryUpgrade/ProductivityUpgrade">
+    <ProductivityUpgrade>
+      <Value>50</Value>
+      <Percental>1</Percental>
+    </ProductivityUpgrade>
   </ModOp>
 
-  <ModOp Type="add" GUID='125139' Path="/Values/FactoryUpgrade/ProductivityUpgrade">
-                              <ProductivityUpgrade>
-                                <Value>50</Value>
-                                <Percental>1</Percental>
-                              </ProductivityUpgrade>
-  </ModOp>
-  
-  <ModOp Type="replace" GUID='125114' Path="/Values/PopulationUpgrade/InputBenefitModifier/Item">
-                                <Item>
-                                  <Product>120032</Product>
-                                  <AdditionalHappiness>10</AdditionalHappiness>
-                                  <AdditionalResearch>4</AdditionalResearch>
-                                </Item>
+  <ModOp Type="Replace" GUID="125114" Path="/Values/PopulationUpgrade/InputBenefitModifier/Item">
+    <Item>
+      <Product>120032</Product>
+      <AdditionalHappiness>10</AdditionalHappiness>
+      <AdditionalResearch>4</AdditionalResearch>
+    </Item>
   </ModOp>
 
-  <ModOp Type="replace" GUID='125114' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
-                              <GoodConsumptionUpgrade>
-                                <Item>
-                                  <ProvidedNeed>120032</ProvidedNeed>
-                                  <AmountInPercent>-30</AmountInPercent>
-                                </Item>
-                              </GoodConsumptionUpgrade>
-  </ModOp>
-  
-  <ModOp Type="replace" GUID='125144' Path="/Values/PopulationUpgrade/InputBenefitModifier">
-                              <InputBenefitModifier>
-                                <Item>
-                                  <Product>120032</Product>
-                                  <AdditionalResearch>1</AdditionalResearch>
-                                </Item>
-                                <Item>
-                                  <Product>1010213</Product>
-                                  <AdditionalResearch>1</AdditionalResearch>
-                                </Item>
-                                <Item>
-                                  <Product>1010246</Product>
-                                  <AdditionalResearch>1</AdditionalResearch>
-                                </Item>
-                                <Item>
-                                  <Product>1010259</Product>
-                                  <AdditionalResearch>1</AdditionalResearch>
-                                </Item>
-                              </InputBenefitModifier>
+  <ModOp Type="Replace" GUID="125114" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <GoodConsumptionUpgrade>
+      <Item>
+        <ProvidedNeed>120032</ProvidedNeed>
+        <AmountInPercent>-30</AmountInPercent>
+      </Item>
+    </GoodConsumptionUpgrade>
   </ModOp>
 
-  <ModOp Type="replace" GUID='125145' Path="/Values/PopulationUpgrade/InputBenefitModifier">
-                              <InputBenefitModifier>
-                                <Item>
-                                  <Product>120032</Product>
-                                  <AdditionalHappiness>3</AdditionalHappiness>
-                                </Item>
-                                <Item>
-                                  <Product>1010213</Product>
-                                  <AdditionalHappiness>3</AdditionalHappiness>
-                                </Item>
-                              </InputBenefitModifier>
+  <ModOp Type="Replace" GUID="125144" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+    <InputBenefitModifier>
+      <Item>
+        <Product>120032</Product>
+        <AdditionalResearch>1</AdditionalResearch>
+      </Item>
+      <Item>
+        <Product>1010213</Product>
+        <AdditionalResearch>1</AdditionalResearch>
+      </Item>
+      <Item>
+        <Product>1010246</Product>
+        <AdditionalResearch>1</AdditionalResearch>
+      </Item>
+      <Item>
+        <Product>1010259</Product>
+        <AdditionalResearch>1</AdditionalResearch>
+      </Item>
+    </InputBenefitModifier>
   </ModOp>
 
-  <ModOp Type="replace" GUID='125146' Path="/Values/PopulationUpgrade/InputBenefitModifier">
-                              <InputBenefitModifier>
-                                <Item>
-                                  <Product>1010246</Product>
-                                  <AdditionalHappiness>4</AdditionalHappiness>
-                                </Item>
-                                <Item>
-                                  <Product>1010259</Product>
-                                  <AdditionalHappiness>4</AdditionalHappiness>
-                                </Item>
-                              </InputBenefitModifier>
+  <ModOp Type="Replace" GUID="125145" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+    <InputBenefitModifier>
+      <Item>
+        <Product>120032</Product>
+        <AdditionalHappiness>3</AdditionalHappiness>
+      </Item>
+      <Item>
+        <Product>1010213</Product>
+        <AdditionalHappiness>3</AdditionalHappiness>
+      </Item>
+    </InputBenefitModifier>
   </ModOp>
 
-  <ModOp Type="replace" GUID='125146' Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
-                              <GoodConsumptionUpgrade>
-                                <Item>
-                                  <ProvidedNeed>1010246</ProvidedNeed>
-                                  <AmountInPercent>-20</AmountInPercent>
-                                </Item>
-                                <Item>
-                                  <ProvidedNeed>1010259</ProvidedNeed>
-                                  <AmountInPercent>-20</AmountInPercent>
-                                </Item>
-                              </GoodConsumptionUpgrade>
+  <ModOp Type="Replace" GUID="125146" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+    <InputBenefitModifier>
+      <Item>
+        <Product>1010246</Product>
+        <AdditionalHappiness>4</AdditionalHappiness>
+      </Item>
+      <Item>
+        <Product>1010259</Product>
+        <AdditionalHappiness>4</AdditionalHappiness>
+      </Item>
+    </InputBenefitModifier>
   </ModOp>
 
+  <ModOp Type="Replace" GUID="125146" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+    <GoodConsumptionUpgrade>
+      <Item>
+        <ProvidedNeed>1010246</ProvidedNeed>
+        <AmountInPercent>-20</AmountInPercent>
+      </Item>
+      <Item>
+        <ProvidedNeed>1010259</ProvidedNeed>
+        <AmountInPercent>-20</AmountInPercent>
+      </Item>
+    </GoodConsumptionUpgrade>
+  </ModOp>
 
   <!-- Replace scholar needs -->
   <ModOp Type="Replace" GUID="118745" Path="/Values/PopulationLevel7/PopulationInputs">
