@@ -1,16 +1,47 @@
 <ModOps>
-
-  <!-- Tailor's Shop replaced input (wool) -->
-  <ModOp Type="replace" GUID='118734' Path="/Values/FactoryBase/FactoryInputs">
+  <!-- Tailor's Shop replaced input -->
+  <ModOp Type="Replace" GUID="118734" Path="/Values/FactoryBase/FactoryInputs">
     <FactoryInputs>
+      <!-- [NEW] Pigs -->
       <Item>
-        <Product>1010197</Product>
+        <Product>1010199</Product>
+        <Amount>1</Amount>
+        <StorageAmount>3</StorageAmount>
+      </Item>
+      <!-- [NEW] Furs -->
+      <Item>
+        <Product>1010209</Product>
         <Amount>1</Amount>
         <StorageAmount>3</StorageAmount>
       </Item>
     </FactoryInputs>
-  </ModOp>  
+  </ModOp>
 
+  <!-- Production chain for Tailor's Shop -->
+  <ModOp Type="Replace" GUID="118738" Path="/Values/ProductionChain">
+    <ProductionChain>
+      <Building>118734</Building>
+      <Tier1>
+        <!-- Cotton Chain -->
+        <Item>
+          <Building>1010318</Building>
+          <Tier2>
+            <Item>
+              <Building>1010331</Building>
+            </Item>
+          </Tier2>
+        </Item>
+        <!-- Furs -->
+        <Item>
+          <Building>1010558</Building>
+        </Item>
+        <!-- Pigs -->
+        <Item>
+          <Building>1010269</Building>
+        </Item>
+      </Tier1>
+    </ProductionChain>
+  </ModOp>
   <!-- Bootmakers replaced input (pigs)-->
   <ModOp Type="replace" GUID='118733' Path="/Values/FactoryBase/FactoryInputs">
     <FactoryInputs>
