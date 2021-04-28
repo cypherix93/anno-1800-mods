@@ -2,6 +2,11 @@
   <!-- Tailor's Shop replaced input -->
   <ModOp Type="Replace" GUID="118734" Path="/Values/FactoryBase/FactoryInputs">
     <FactoryInputs>
+      <Item>
+        <Product>1010240</Product>
+        <Amount>1</Amount>
+        <StorageAmount>3</StorageAmount>
+      </Item>
       <!-- [NEW] Pigs -->
       <Item>
         <Product>1010199</Product>
