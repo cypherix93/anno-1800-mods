@@ -7,15 +7,9 @@
         <Amount>1</Amount>
         <StorageAmount>3</StorageAmount>
       </Item>
-      <!-- [NEW] Pigs -->
+      <!-- [NEW] Filaments -->
       <Item>
-        <Product>1010199</Product>
-        <Amount>1</Amount>
-        <StorageAmount>3</StorageAmount>
-      </Item>
-      <!-- [NEW] Furs -->
-      <Item>
-        <Product>1010209</Product>
+        <Product>1010243</Product>
         <Amount>1</Amount>
         <StorageAmount>3</StorageAmount>
       </Item>
@@ -36,13 +30,14 @@
             </Item>
           </Tier2>
         </Item>
-        <!-- Furs -->
+        <!-- Filaments Chain -->
         <Item>
-          <Building>1010558</Building>
-        </Item>
-        <!-- Pigs -->
-        <Item>
-          <Building>1010269</Building>
+          <Building>1010321</Building>
+          <Tier2>
+            <Item>
+              <Building>1010304</Building>
+            </Item>
+          </Tier2>
         </Item>
       </Tier1>
     </ProductionChain>
