@@ -119,4 +119,74 @@
       </Item>
     </Costs>
   </ModOp>
+
+  <!-- [MOD] Changed unlock trigger of 150 Shepherds to 150 Scholars -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1337471200</GUID>
+          <Name>Unlock at 150 Scholars</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>118745</Context>
+                <CounterAmount>150</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <Item>
+                        <Asset>114527</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>114519</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>119892</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>117918</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>117858</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>129502</Asset>
+                      </Item>
+                    </UnlockAssets>
+                    <UnhideAssets>
+                      <Item>
+                        <Asset>114524</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>114525</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>131390</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
 </ModOps>
