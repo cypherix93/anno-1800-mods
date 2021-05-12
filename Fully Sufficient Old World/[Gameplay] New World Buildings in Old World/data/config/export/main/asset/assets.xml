@@ -196,6 +196,31 @@
     Fertility Changes 
   ========================================================
   -->
+  <!-- Fertility IDs:
+    1010569	EN	Potato Fertility
+    1010571	EN	Grain Fertility
+    1010572	EN	Hops Fertility
+    1010570	EN	Red Pepper Fertility
+    120013	EN	Grape Fertility
+    1010573	EN	Sugar Cane Fertility
+    1010575	EN	Cocoa Fertility
+    1010574	EN	Caoutchouc Fertility
+    1010576	EN	Cotton Fertility
+    1010577	EN	Tobacco Fertility
+    120038	EN	Corn Fertility
+    120039	EN	Coffee Fertility
+    120040	EN	Plantain Fertility
+    114343	EN	Linseed Fertility
+    114352	EN	Hibiscus Fertility
+    114345	EN	Teff Grass Fertility
+    114347	EN	Indigo Fertility
+    114348	EN	Spice Fertility
+    120017	EN	Nitre Deposits
+    1010581	EN	Fur Abundance
+    120018	EN	Pearl Abundance
+    114349	EN	Bee Abundance
+    118727	EN	Lobster Abundance
+  -->
   <ModOp Type="Replace" GUID="141515" Path="/Values/FertilitySet/Fertilities">
     <Fertilities>
       <Item>
@@ -213,6 +238,14 @@
       <Item>
         <!-- Nitre Deposits -->
         <Fertility>120017</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Indigo -->
+        <Fertility>114347</Fertility>
       </Item>
     </Fertilities>
   </ModOp>
@@ -234,6 +267,14 @@
         <!-- Grape -->
         <Fertility>120013</Fertility>
       </Item>
+      <Item>
+        <!-- [MOD] Hibiscus -->
+        <Fertility>114352</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Spice -->
+        <Fertility>114348</Fertility>
+      </Item>
     </Fertilities>
   </ModOp>
   <ModOp Type="Replace" GUID="141519" Path="/Values/FertilitySet/Fertilities">
@@ -253,6 +294,14 @@
       <Item>
         <!-- Red Pepper -->
         <Fertility>1010570</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Indigo -->
+        <Fertility>114347</Fertility>
       </Item>
     </Fertilities>
   </ModOp>
@@ -274,6 +323,18 @@
         <!-- Hops -->
         <Fertility>1010572</Fertility>
       </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Teff -->
+        <Fertility>114345</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Spice -->
+        <Fertility>114348</Fertility>
+      </Item>
     </Fertilities>
   </ModOp>
   <ModOp Type="Replace" GUID="141523" Path="/Values/FertilitySet/Fertilities">
@@ -293,6 +354,18 @@
       <Item>
         <!-- Fur Abundance -->
         <Fertility>1010581</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Hibiscus -->
+        <Fertility>114352</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Indigo -->
+        <Fertility>114347</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Teff -->
+        <Fertility>114345</Fertility>
       </Item>
     </Fertilities>
   </ModOp>
@@ -314,6 +387,18 @@
         <!-- Fur Abundance -->
         <Fertility>1010581</Fertility>
       </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Indigo -->
+        <Fertility>114347</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Spice -->
+        <Fertility>114348</Fertility>
+      </Item>
     </Fertilities>
   </ModOp>
   <ModOp Type="Replace" GUID="142444" Path="/Values/FertilitySet/Fertilities">
@@ -333,6 +418,18 @@
       <Item>
         <!-- Grain -->
         <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Hibiscus -->
+        <Fertility>114352</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Indigo -->
+        <Fertility>114347</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Spice -->
+        <Fertility>114348</Fertility>
       </Item>
     </Fertilities>
   </ModOp>
@@ -354,6 +451,18 @@
         <!-- Potato -->
         <Fertility>1010569</Fertility>
       </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Teff -->
+        <Fertility>114345</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Spice -->
+        <Fertility>114348</Fertility>
+      </Item>
     </Fertilities>
   </ModOp>
   <ModOp Type="Replace" GUID="142446" Path="/Values/FertilitySet/Fertilities">
@@ -373,6 +482,14 @@
       <Item>
         <!-- Potato -->
         <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Hibiscus -->
+        <Fertility>114352</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Teff -->
+        <Fertility>114345</Fertility>
       </Item>
     </Fertilities>
   </ModOp>
@@ -394,6 +511,18 @@
         <!-- Grain -->
         <Fertility>1010571</Fertility>
       </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Teff -->
+        <Fertility>114345</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Spice -->
+        <Fertility>114348</Fertility>
+      </Item>
     </Fertilities>
   </ModOp>
   <ModOp Type="Replace" GUID="142448" Path="/Values/FertilitySet/Fertilities">
@@ -413,6 +542,18 @@
       <Item>
         <!-- Hops -->
         <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Linseed -->
+        <Fertility>114343</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Hibiscus -->
+        <Fertility>114352</Fertility>
+      </Item>
+      <Item>
+        <!-- [MOD] Teff -->
+        <Fertility>114345</Fertility>
       </Item>
     </Fertilities>
   </ModOp>
