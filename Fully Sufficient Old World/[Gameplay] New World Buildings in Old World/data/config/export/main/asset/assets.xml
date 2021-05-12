@@ -121,7 +121,7 @@
   </ModOp>
 
   <!-- [MOD] Changed unlock trigger of 150 Shepherds to 150 Scholars -->
-  <ModOp Type="addNextSibling" GUID="130248">
+  <ModOp Type="AddNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -188,5 +188,232 @@
         <TriggerSetup />
       </Values>
     </Asset>
+  </ModOp>
+
+
+  <!--
+  ========================================================
+    Fertility Changes 
+  ========================================================
+  -->
+  <ModOp Type="Replace" GUID="141515" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- Red Pepper -->
+        <Fertility>1010570</Fertility>
+      </Item>
+      <Item>
+        <!-- Nitre Deposits -->
+        <Fertility>120017</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="141517" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- Nitre Deposits -->
+        <Fertility>120017</Fertility>
+      </Item>
+      <Item>
+        <!-- Grape -->
+        <Fertility>120013</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="141519" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- Grape -->
+        <Fertility>120013</Fertility>
+      </Item>
+      <Item>
+        <!-- Red Pepper -->
+        <Fertility>1010570</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="141521" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- Fur Abundance -->
+        <Fertility>1010581</Fertility>
+      </Item>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="141523" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- Red Pepper -->
+        <Fertility>1010570</Fertility>
+      </Item>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- Fur Abundance -->
+        <Fertility>1010581</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="141525" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- Red Pepper -->
+        <Fertility>1010570</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- Fur Abundance -->
+        <Fertility>1010581</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="142444" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- Nitre Deposits -->
+        <Fertility>120017</Fertility>
+      </Item>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="142445" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- Grape -->
+        <Fertility>120013</Fertility>
+      </Item>
+      <Item>
+        <!-- Red Pepper -->
+        <Fertility>1010570</Fertility>
+      </Item>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="142446" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Fur Abundance -->
+        <Fertility>1010581</Fertility>
+      </Item>
+      <Item>
+        <!-- Red Pepper -->
+        <Fertility>1010570</Fertility>
+      </Item>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- Potato -->
+        <Fertility>1010569</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="142447" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Fur Abundance -->
+        <Fertility>1010581</Fertility>
+      </Item>
+      <Item>
+        <!-- Nitre Deposits -->
+        <Fertility>120017</Fertility>
+      </Item>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+    </Fertilities>
+  </ModOp>
+  <ModOp Type="Replace" GUID="142448" Path="/Values/FertilitySet/Fertilities">
+    <Fertilities>
+      <Item>
+        <!-- Fur Abundance -->
+        <Fertility>1010581</Fertility>
+      </Item>
+      <Item>
+        <!-- Grape -->
+        <Fertility>120013</Fertility>
+      </Item>
+      <Item>
+        <!-- Grain -->
+        <Fertility>1010571</Fertility>
+      </Item>
+      <Item>
+        <!-- Hops -->
+        <Fertility>1010572</Fertility>
+      </Item>
+    </Fertilities>
   </ModOp>
 </ModOps>
