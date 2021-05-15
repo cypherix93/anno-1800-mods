@@ -1,0 +1,65 @@
+<ModOps>
+  <!-- Unlock all Scholar related stuff -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>424242</GUID>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnlockAssets>
+                      <!-- research institute tiers -->
+                      <Item>
+                        <Asset>118938</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118939</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118940</Asset>
+                      </Item>
+                      <!-- scholar residence -->
+                      <Item>
+                        <Asset>114445</Asset>
+                      </Item>
+                    </UnlockAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionAddResource</Template>
+                <Values>
+                  <Action />
+                  <!-- Adds 10 Scholar Residence Permits to get started with -->
+                  <ActionAddResource>
+                    <Resource>114445</Resource>
+                    <ResourceAmount>10</ResourceAmount>
+                  </ActionAddResource>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+</ModOps>
