@@ -195,7 +195,38 @@
     </Asset>
   </ModOp>
 
+
+  <!-- #region Residence Capacities
+    ======================================================== 
+  -->
+
+  <!-- Farmer Residents -->
+	<ModOp Type="Replace" GUID="1010343" Path="/Values/Residence7/ResidentMax">
+		<ResidentMax>20</ResidentMax>
+	</ModOp>
   
+	<!-- Worker Residents -->
+	<ModOp Type="Replace" GUID="1010344" Path="/Values/Residence7/ResidentMax">
+		<ResidentMax>40</ResidentMax>
+	</ModOp>
+
+	<!-- Artisan Residents -->
+	<ModOp Type="Replace" GUID="1010345" Path="/Values/Residence7/ResidentMax">
+		<ResidentMax>60</ResidentMax>
+	</ModOp>
+
+	<!-- Engineer Residents -->
+	<ModOp Type="Replace" GUID="1010346" Path="/Values/Residence7/ResidentMax">
+		<ResidentMax>80</ResidentMax>
+	</ModOp>
+
+	<!-- Investor Residents -->
+	<ModOp Type="Replace" GUID="1010347" Path="/Values/Residence7/ResidentMax">
+		<ResidentMax>100</ResidentMax>
+	</ModOp>
+
+  <!-- #endregion -->
+
   <!-- #region Population Needs
     ======================================================== 
   -->
