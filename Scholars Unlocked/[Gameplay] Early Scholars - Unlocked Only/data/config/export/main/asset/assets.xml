@@ -1,18 +1,77 @@
 <ModOps>
-  <!-- Unlock all Scholar related stuff -->
+  <!-- Unhide Research Institute -->
   <ModOp Type="addNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
       <Values>
         <Standard>
-          <GUID>424242</GUID>
+          <GUID>1337471301</GUID>
+          <Name>unhide research institute</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
         </Standard>
         <Trigger>
           <TriggerCondition>
-            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Template>ConditionPlayerCounter</Template>
             <Values>
               <Condition />
-              <ConditionAlwaysTrue />
+              <!-- 1 engineer -->
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>1</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionUnlockAsset</Template>
+                <Values>
+                  <Action />
+                  <ActionUnlockAsset>
+                    <UnhideAssets>
+                      <!-- research institute tiers -->
+                      <Item>
+                        <Asset>118938</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118939</Asset>
+                      </Item>
+                      <Item>
+                        <Asset>118940</Asset>
+                      </Item>
+                    </UnhideAssets>
+                  </ActionUnlockAsset>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Unlock Research Institute and Scholar Residences -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1337471302</GUID>
+          <Name>unlock research institute and scholar residences</Name>
+          <IconFilename>data/ui/2kimages/main/profiles/resident_tier04.png</IconFilename>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <!-- 500 engineers -->
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000003</Context>
+                <CounterAmount>500</CounterAmount>
+              </ConditionPlayerCounter>
             </Values>
           </TriggerCondition>
           <TriggerActions>
@@ -60,6 +119,4 @@
       </Values>
     </Asset>
   </ModOp>
-
-
 </ModOps>
