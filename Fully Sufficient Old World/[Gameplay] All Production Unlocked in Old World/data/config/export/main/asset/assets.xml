@@ -120,7 +120,12 @@
     </Costs>
   </ModOp>
 
-  <!-- [MOD] Changed unlock trigger of 150 Shepherds to 150 Scholars -->
+  <!--
+  ========================================================
+    Building Unlocks
+  ========================================================
+  -->
+  <!-- Unlock trigger of 150 Shepherds -> 150 Scholars -->
   <ModOp Type="AddNextSibling" GUID="130248">
     <Asset>
       <Template>Trigger</Template>
@@ -190,13 +195,19 @@
     </Asset>
   </ModOp>
 
-
-  <!--
-  ========================================================
-    Fertility Changes 
-  ========================================================
+  
+  <!-- #region Population Needs
+    ======================================================== 
   -->
-  <!-- Fertility IDs:
+  
+
+  <!-- #endregion -->
+
+  <!-- #region Fertilities
+    ======================================================== 
+  -->
+  <!--
+    Fertility IDs:
     1010569	Potato Fertility
     1010571	Grain Fertility
     1010572	Hops Fertility
@@ -573,4 +584,7 @@
       </Item>
     </Fertilities>
   </ModOp>
+  
+  <!-- #endregion -->
+
 </ModOps>
