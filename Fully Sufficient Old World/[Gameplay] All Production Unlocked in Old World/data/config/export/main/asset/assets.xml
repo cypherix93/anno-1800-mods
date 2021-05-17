@@ -245,6 +245,24 @@
     Building Unlocks
   ========================================================
   -->
+  <!-- Unlock at 50 Farmers - Goat Farm -->
+  <ModOp Type="Add" GUID="130248" Path="Values/Trigger/TriggerActions">
+    <Item>
+      <TriggerAction>
+        <Template>ActionUnlockAsset</Template>
+        <Values>
+          <Action />
+          <ActionUnlockAsset>
+            <Item>
+              <Asset>114456</Asset>
+            </Item>
+          </ActionUnlockAsset>
+        </Values>
+      </TriggerAction>
+    </Item>
+  </ModOp>
+
+
   <!-- Unlock trigger of 150 Shepherds -> 150 Scholars -->
   <ModOp Type="AddNextSibling" GUID="130248">
     <Asset>
