@@ -1,0 +1,29 @@
+<%
+var residentTypes = {
+    Farmer: 1010343,
+    Worker: 1010344,
+    Artisan: 1010345,
+    Engineer: 1010346,
+    Investor: 1010347
+}
+var residenceCapacities = {
+    Farmer: 10,
+    Worker: 20,
+    Artisan: 30,
+    Engineer: 40,
+    Investor: 50
+}
+%>
+<% for (var residentType in residentTypes) {
+    var guid = residentTypes[residentType]
+    var capacity = residenceCapacities[residentType]
+
+    if (!capacity) {
+        throw new Error(`Invalid Resident Type: ${residentType}`)
+    }
+%>
+<!-- <%= residentType %> Residents -->
+<ModOp Type="Replace" GUID="<%= guid %>" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax><%= capacity %></ResidentMax>
+</ModOp>
+<% } %>
