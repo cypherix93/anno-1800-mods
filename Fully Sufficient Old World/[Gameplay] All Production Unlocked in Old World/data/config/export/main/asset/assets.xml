@@ -1,10 +1,21 @@
 <ModOps>
+  <!-- region Allow building in Old World -->
 
   <!-- Goat Farm -->
   <ModOp Type="Replace" GUID="114456" Path="/Values/Building/AssociatedRegions">
-    <!-- Allow building in Old World -->
     <AssociatedRegions>Moderate</AssociatedRegions>
   </ModOp>
+  <!-- Linseed Farm -->
+  <ModOp Type="Replace" GUID="114448" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+  </ModOp>
+  <!-- Linseed Farm -->
+  <ModOp Type="Replace" GUID="114448" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+  </ModOp>
+
+  <!-- endregion -->
+
   <ModOp Type="Replace" GUID="114456" Path="/Values/Maintenance/Maintenances">
     <Maintenances>
       <!-- Coins -->
@@ -240,28 +251,53 @@
     </Costs>
   </ModOp>
 
+  <!-- region Building Unlocks -->
   <!--
+  ====================================================
+    50 Farmers
   ========================================================
-    Building Unlocks
-  ========================================================
+    Unhide:
+    - Goat Farm
   -->
-  <!-- Unlock at 50 Farmers - Goat Farm -->
-  <ModOp Type="Add" GUID="130248" Path="Values/Trigger/TriggerActions">
-    <Item>
-      <TriggerAction>
-        <Template>ActionUnlockAsset</Template>
-        <Values>
-          <Action />
-          <ActionUnlockAsset>
-            <Item>
-              <Asset>114456</Asset>
-            </Item>
-          </ActionUnlockAsset>
-        </Values>
-      </TriggerAction>
-    </Item>
-  </ModOp>
-
+  <Asset>
+    <Template>Trigger</Template>
+    <Values>
+      <Standard>
+        <GUID>1337471201</GUID>
+      </Standard>
+      <Trigger>
+        <TriggerCondition>
+          <Template>ConditionPlayerCounter</Template>
+          <Values>
+            <Condition/>
+            <ConditionPlayerCounter>
+              <PlayerCounter>PopulationByLevel</PlayerCounter>
+              <Context>15000000</Context>
+              <CounterAmount>50</CounterAmount>
+            </ConditionPlayerCounter>
+          </Values>
+        </TriggerCondition>
+        <TriggerActions>
+          <Item>
+            <TriggerAction>
+              <Template>ActionUnlockAsset</Template>
+              <Values>
+                <Action/>
+                <ActionUnlockAsset>
+                  <UnhideAssets>
+                    <Item>
+                      <Asset>114456</Asset>
+                    </Item>
+                  </UnhideAssets>
+                </ActionUnlockAsset>
+              </Values>
+            </TriggerAction>
+          </Item>
+        </TriggerActions>
+      </Trigger>
+      <TriggerSetup/>
+    </Values>
+  </Asset>
 
   <!-- Unlock trigger of 150 Shepherds -> 150 Scholars -->
   <ModOp Type="AddNextSibling" GUID="130248">
@@ -276,7 +312,7 @@
           <TriggerCondition>
             <Template>ConditionPlayerCounter</Template>
             <Values>
-              <Condition />
+              <Condition/>
               <ConditionPlayerCounter>
                 <PlayerCounter>PopulationByLevel</PlayerCounter>
                 <Context>118745</Context>
@@ -289,7 +325,7 @@
               <TriggerAction>
                 <Template>ActionUnlockAsset</Template>
                 <Values>
-                  <Action />
+                  <Action/>
                   <ActionUnlockAsset>
                     <UnlockAssets>
                       <Item>
@@ -328,45 +364,47 @@
             </Item>
           </TriggerActions>
         </Trigger>
-        <TriggerSetup />
+        <TriggerSetup/>
       </Values>
     </Asset>
   </ModOp>
 
+  <!-- endregion -->
+
 
   <!-- #region Residence Capacities
-    ======================================================== 
+    ========================================================
   -->
 
   <!-- Farmer Residents -->
-	<ModOp Type="Replace" GUID="1010343" Path="/Values/Residence7/ResidentMax">
-		<ResidentMax>20</ResidentMax>
-	</ModOp>
-  
-	<!-- Worker Residents -->
-	<ModOp Type="Replace" GUID="1010344" Path="/Values/Residence7/ResidentMax">
-		<ResidentMax>40</ResidentMax>
-	</ModOp>
+  <ModOp Type="Replace" GUID="1010343" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax>20</ResidentMax>
+  </ModOp>
 
-	<!-- Artisan Residents -->
-	<ModOp Type="Replace" GUID="1010345" Path="/Values/Residence7/ResidentMax">
-		<ResidentMax>60</ResidentMax>
-	</ModOp>
+  <!-- Worker Residents -->
+  <ModOp Type="Replace" GUID="1010344" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax>40</ResidentMax>
+  </ModOp>
 
-	<!-- Engineer Residents -->
-	<ModOp Type="Replace" GUID="1010346" Path="/Values/Residence7/ResidentMax">
-		<ResidentMax>80</ResidentMax>
-	</ModOp>
+  <!-- Artisan Residents -->
+  <ModOp Type="Replace" GUID="1010345" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax>60</ResidentMax>
+  </ModOp>
 
-	<!-- Investor Residents -->
-	<ModOp Type="Replace" GUID="1010347" Path="/Values/Residence7/ResidentMax">
-		<ResidentMax>100</ResidentMax>
-	</ModOp>
+  <!-- Engineer Residents -->
+  <ModOp Type="Replace" GUID="1010346" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax>80</ResidentMax>
+  </ModOp>
+
+  <!-- Investor Residents -->
+  <ModOp Type="Replace" GUID="1010347" Path="/Values/Residence7/ResidentMax">
+    <ResidentMax>100</ResidentMax>
+  </ModOp>
 
   <!-- #endregion -->
 
   <!-- #region Population Needs
-    ======================================================== 
+    ========================================================
   -->
 
   <!-- Farmers Needs -->
@@ -452,10 +490,68 @@
     </Item>
   </ModOp>
 
+  <!-- Engineers Needs -->
+  <!-- MAINTAIN: Hibiscus Tea, Ceramics -->
+  <!-- ADD: Seafood Stew -->
+  <ModOp Type="Add" GUID="15000002" Path="/Values/PopulationLevel7/PopulationInputs">
+    <!-- Hibiscus Tea -->
+    <Item>
+      <Product>114390</Product>
+      <Amount>0.0004</Amount>
+      <HappinessValue>6</HappinessValue>
+      <MoneyValue>20</MoneyValue>
+    </Item>
+    <!-- Tapestries -->
+    <Item>
+      <Product>114404</Product>
+      <Amount>0.00035</Amount>
+      <HappinessValue>2</HappinessValue>
+      <MoneyValue>25</MoneyValue>
+      <FullWeightPopulationCount>300</FullWeightPopulationCount>
+    </Item>
+
+    <!-- Seafood Stew -->
+    <Item>
+      <Product>114410</Product>
+      <Amount>0.00037</Amount>
+      <SupplyWeight>3</SupplyWeight>
+      <MoneyValue>15</MoneyValue>
+      <FullWeightPopulationCount>600</FullWeightPopulationCount>
+      <NoWeightPopulationCount>299</NoWeightPopulationCount>
+    </Item>
+    <!-- Clay Pipes -->
+    <Item>
+      <Product>114414</Product>
+      <Amount>0.00015</Amount>
+      <HappinessValue>2</HappinessValue>
+      <MoneyValue>24</MoneyValue>
+      <FullWeightPopulationCount>600</FullWeightPopulationCount>
+      <NoWeightPopulationCount>299</NoWeightPopulationCount>
+    </Item>
+    <!-- Illuminated Script -->
+    <Item>
+      <Product>117698</Product>
+      <Amount>0.00018</Amount>
+      <SupplyWeight>2</SupplyWeight>
+      <MoneyValue>16</MoneyValue>
+      <FullWeightPopulationCount>1000</FullWeightPopulationCount>
+      <NoWeightPopulationCount>599</NoWeightPopulationCount>
+    </Item>
+    <!-- Lanterns -->
+    <Item>
+      <Product>117699</Product>
+      <Amount>0.0003</Amount>
+      <SupplyWeight>3</SupplyWeight>
+      <MoneyValue>25</MoneyValue>
+      <FullWeightPopulationCount>2000</FullWeightPopulationCount>
+      <NoWeightPopulationCount>999</NoWeightPopulationCount>
+    </Item>
+  </ModOp>
+
   <!-- #endregion -->
 
   <!-- #region Fertilities
-    ======================================================== 
+    ========================================================
   -->
   <!--
     Fertility IDs:
