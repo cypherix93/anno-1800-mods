@@ -1,0 +1,200 @@
+<%
+var fertilityMap = {
+    'Potato Fertility': 1010569,
+    'Grain Fertility': 1010571,
+    'Hops Fertility': 1010572,
+    'Red Pepper Fertility': 1010570,
+    'Grape Fertility': 120013,
+    'Sugar Cane Fertility': 1010573,
+    'Cocoa Fertility': 1010575,
+    'Caoutchouc Fertility': 1010574,
+    'Cotton Fertility': 1010576,
+    'Tobacco Fertility': 1010577,
+    'Corn Fertility': 120038,
+    'Coffee Fertility': 120039,
+    'Plantain Fertility': 120040,
+    'Linseed Fertility': 114343,
+    'Hibiscus Fertility': 114352,
+    'Teff Grass Fertility': 114345,
+    'Indigo Fertility': 114347,
+    'Spice Fertility': 114348,
+    'Nitre Deposits': 120017,
+    'Fur Abundance': 1010581,
+    'Pearl Abundance': 120018,
+    'Bee Abundance': 114349,
+    'Lobster Abundance': 118727
+};
+
+// All are <AllowedResourceAmounts> = High
+var fertilitySets = [
+    {
+        name: 'Set 1',
+        guid: 141515,
+        fertilities: [
+            'Potato Fertility',
+            'Nitre Deposits',
+            'Sugar Cane Fertility',
+            'Cotton Fertility',
+            'Coffee Fertility',
+            'Linseed Fertility',
+            'Indigo Fertility'
+        ]
+    },
+    {
+        name: 'Set 2',
+        guid: 141517,
+        fertilities: [
+            'Grain Fertility',
+            'Grape Fertility',
+            'Cocoa Fertility',
+            'Cotton Fertility',
+            'Hibiscus Fertility',
+            'Spice Fertility',
+            'Lobster Abundance'
+        ]
+    },
+    {
+        name: 'Set 3',
+        guid: 141519,
+        fertilities: [
+            'Grain Fertility',
+            'Grape Fertility',
+            'Cocoa Fertility',
+            'Caoutchouc Fertility',
+            'Tobacco Fertility',
+            'Linseed Fertility',
+            'Indigo Fertility'
+        ]
+    },
+    {
+        name: 'Set 4',
+        guid: 141521,
+        fertilities: [
+            'Grain Fertility',
+            'Hops Fertility',
+            'Cocoa Fertility',
+            'Corn Fertility',
+            'Plantain Fertility',
+            'Indigo Fertility',
+            'Bee Abundance'
+        ]
+    },
+    {
+        name: 'Set 5',
+        guid: 141523,
+        fertilities: [
+            'Potato Fertility',
+            'Red Pepper Fertility',
+            'Fur Abundance',
+            'Plantain Fertility',
+            'Pearl Abundance',
+            'Linseed Fertility',
+            'Lobster Abundance'
+        ]
+    },
+    {
+        name: 'Set 6',
+        guid: 141525,
+        fertilities: [
+            'Red Pepper Fertility',
+            'Fur Abundance',
+            'Tobacco Fertility',
+            'Corn Fertility',
+            'Linseed Fertility',
+            'Indigo Fertility',
+            'Bee Abundance'
+        ]
+    },
+    {
+        name: 'Set 7',
+        guid: 142444,
+        fertilities: [
+            'Potato Fertility',
+            'Hops Fertility',
+            'Nitre Deposits',
+            'Sugar Cane Fertility',
+            'Coffee Fertility',
+            'Hibiscus Fertility',
+            'Spice Fertility'
+        ]
+    },
+    {
+        name: 'Set 8',
+        guid: 142445,
+        fertilities: [
+            'Red Pepper Fertility',
+            'Grape Fertility',
+            'Sugar Cane Fertility',
+            'Caoutchouc Fertility',
+            'Plantain Fertility',
+            'Spice Fertility',
+            'Lobster Abundance'
+        ]
+    },
+    {
+        name: 'Set 9',
+        guid: 142446,
+        fertilities: [
+            'Potato Fertility',
+            'Fur Abundance',
+            'Caoutchouc Fertility',
+            'Tobacco Fertility',
+            'Coffee Fertility',
+            'Teff Grass Fertility',
+            'Bee Abundance'
+        ]
+    },
+    {
+        name: 'Set 10',
+        guid: 142447,
+        fertilities: [
+            'Grain Fertility',
+            'Hops Fertility',
+            'Nitre Deposits',
+            'Sugar Cane Fertility',
+            'Plantain Fertility',
+            'Teff Grass Fertility',
+            'Spice Fertility'
+        ]
+    },
+    {
+        name: 'Set 11',
+        guid: 142448,
+        fertilities: [
+            'Hops Fertility',
+            'Fur Abundance',
+            'Cotton Fertility',
+            'Coffee Fertility',
+            'Pearl Abundance',
+            'Hibiscus Fertility',
+            'Teff Grass Fertility'
+        ]
+    }
+];
+%>
+<%
+for (var fertilitySet of fertilitySets) {
+%>
+    <!-- Fertility <%= fertilitySet.name %> -->
+    <ModOp Type="Replace" GUID="<%= fertilitySet.guid %>>" Path="/Values/FertilitySet/Fertilities">
+        <Fertilities>
+            <%
+            for (var fertility of fertilitySet.fertilities) {
+                var fertilityGuid = fertilityMap[fertility];
+
+                if (!fertilityGuid) {
+                    throw new Error(`Invalid Fertility: ${fertility}`);
+                }
+            %>
+                <Item>
+                    <!-- <%= fertility %>> -->
+                    <Fertility><%= fertilityGuid %>></Fertility>
+                </Item>
+            <%
+            }
+            %>
+        </Fertilities>
+    </ModOp>
+<%
+}
+%>

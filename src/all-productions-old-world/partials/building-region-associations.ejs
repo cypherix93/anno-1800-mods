@@ -1,0 +1,59 @@
+<%
+var buildings = {
+    // New World
+    'Plantain Plantation': 101263,
+    'Fish Oil Factory': 101262,
+    'Cotton Plantation': 1010331,
+    'Cotton Mill': 1010318,
+    'Sugar Cane Plantation': 1010329,
+    'Rum Distillery': 1010340,
+    'Alpaca Farm': 101272,
+    'Poncho Darner': 101266,
+    'Felt Producer': 101415,
+    'Bombin Weaver': 101273,
+    'Corn Farm': 101270,
+    'Tortilla Maker': 101271,
+    'Coffee Plantation': 101251,
+    'Coffee Roaster': 101252,
+    'Tobacco Plantation': 1010330,
+    'Cigar Factory': 1010342,
+    'Sugar Refinery': 1010317,
+    'Cocoa Plantation': 1010332,
+    'Chocolate Factory': 1010341,
+
+    // Africa
+    'Goat Farm': 114456,
+    'Linseed Farm': 114448,
+    'Linen Mill': 114441,
+    'Embroiderer': 114466,
+    'Salt Works': 114440,
+    'Sanga Farm': 114439,
+    'Dry-House': 114444,
+    'Hibiscus Farm': 114447,
+    'Tea Spicer': 114468,
+    'Indigo Farm': 114451,
+    'Tapestry Looms': 114469,
+    'Teff Farm': 114450,
+    'Spice Farm': 114452,
+    'Teff Mill': 114459,
+    'Lobster Fishery': 118729,
+    'Wat Kitchen': 114471,
+    'Pipe Maker': 114472,
+    'Paper Mill': 117744,
+    'Luminer': 114470,
+    'Apiary': 114453,
+    'Chandler': 114461,
+    'Lanternsmith': 114464
+};
+%>
+<%
+for (var building in buildings) {
+    var guid = buildings[building];
+%>
+<!-- <%= building %> -->
+<ModOp Type="Replace" GUID="<%= guid %>>" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+<%
+}
+%>
