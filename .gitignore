@@ -1,3 +1,5 @@
 *.env
 *.tmp
 *.log
+.idea/
+node_modules/
