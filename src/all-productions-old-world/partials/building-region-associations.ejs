@@ -44,16 +44,13 @@ var buildings = {
     'Apiary': 114453,
     'Chandler': 114461,
     'Lanternsmith': 114464
-};
+}
 %>
-<%
-for (var building in buildings) {
-    var guid = buildings[building];
+<% for (var building in buildings) {
+    var guid = buildings[building]
 %>
 <!-- <%= building %> -->
 <ModOp Type="Replace" GUID="<%= guid %>>" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
-<%
-}
-%>
+<% } %>

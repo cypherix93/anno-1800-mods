@@ -23,7 +23,7 @@ var fertilityMap = {
     'Pearl Abundance': 120018,
     'Bee Abundance': 114349,
     'Lobster Abundance': 118727
-};
+}
 
 // All are <AllowedResourceAmounts> = High
 var fertilitySets = [
@@ -170,31 +170,23 @@ var fertilitySets = [
             'Teff Grass Fertility'
         ]
     }
-];
+]
 %>
-<%
-for (var fertilitySet of fertilitySets) {
-%>
+<% for (var fertilitySet of fertilitySets) { %>
     <!-- Fertility <%= fertilitySet.name %> -->
-    <ModOp Type="Replace" GUID="<%= fertilitySet.guid %>>" Path="/Values/FertilitySet/Fertilities">
+    <ModOp Type="Replace" GUID="<%= fertilitySet.guid %>" Path="/Values/FertilitySet/Fertilities">
         <Fertilities>
-            <%
-            for (var fertility of fertilitySet.fertilities) {
-                var fertilityGuid = fertilityMap[fertility];
+            <% for (var fertility of fertilitySet.fertilities) {
+                var fertilityGuid = fertilityMap[fertility]
 
                 if (!fertilityGuid) {
-                    throw new Error(`Invalid Fertility: ${fertility}`);
-                }
-            %>
-                <Item>
-                    <!-- <%= fertility %>> -->
-                    <Fertility><%= fertilityGuid %>></Fertility>
-                </Item>
-            <%
-            }
-            %>
+                    throw new Error(`Invalid Fertility: ${fertility}`)
+                } %>
+            <Item>
+                <!-- <%= fertility %>> -->
+                <Fertility><%= fertilityGuid %>></Fertility>
+            </Item>
+            <% } %>
         </Fertilities>
     </ModOp>
-<%
-}
-%>
+<% } %>
