@@ -3,207 +3,207 @@
     
 
 <!-- Plantain Plantation -->
-<ModOp Type="Replace" GUID="101263>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101263" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Fish Oil Factory -->
-<ModOp Type="Replace" GUID="101262>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101262" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Cotton Plantation -->
-<ModOp Type="Replace" GUID="1010331>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010331" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Cotton Mill -->
-<ModOp Type="Replace" GUID="1010318>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010318" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Sugar Cane Plantation -->
-<ModOp Type="Replace" GUID="1010329>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010329" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Rum Distillery -->
-<ModOp Type="Replace" GUID="1010340>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010340" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Alpaca Farm -->
-<ModOp Type="Replace" GUID="101272>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101272" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Poncho Darner -->
-<ModOp Type="Replace" GUID="101266>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101266" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Felt Producer -->
-<ModOp Type="Replace" GUID="101415>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101415" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Bombin Weaver -->
-<ModOp Type="Replace" GUID="101273>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101273" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Corn Farm -->
-<ModOp Type="Replace" GUID="101270>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101270" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Tortilla Maker -->
-<ModOp Type="Replace" GUID="101271>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101271" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Coffee Plantation -->
-<ModOp Type="Replace" GUID="101251>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101251" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Coffee Roaster -->
-<ModOp Type="Replace" GUID="101252>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="101252" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Tobacco Plantation -->
-<ModOp Type="Replace" GUID="1010330>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010330" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Cigar Factory -->
-<ModOp Type="Replace" GUID="1010342>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010342" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Sugar Refinery -->
-<ModOp Type="Replace" GUID="1010317>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010317" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Cocoa Plantation -->
-<ModOp Type="Replace" GUID="1010332>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010332" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Chocolate Factory -->
-<ModOp Type="Replace" GUID="1010341>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="1010341" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Goat Farm -->
-<ModOp Type="Replace" GUID="114456>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114456" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Linseed Farm -->
-<ModOp Type="Replace" GUID="114448>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114448" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Linen Mill -->
-<ModOp Type="Replace" GUID="114441>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114441" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Embroiderer -->
-<ModOp Type="Replace" GUID="114466>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114466" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Salt Works -->
-<ModOp Type="Replace" GUID="114440>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114440" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Sanga Farm -->
-<ModOp Type="Replace" GUID="114439>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114439" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Dry-House -->
-<ModOp Type="Replace" GUID="114444>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114444" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Hibiscus Farm -->
-<ModOp Type="Replace" GUID="114447>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114447" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Tea Spicer -->
-<ModOp Type="Replace" GUID="114468>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114468" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Indigo Farm -->
-<ModOp Type="Replace" GUID="114451>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114451" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Tapestry Looms -->
-<ModOp Type="Replace" GUID="114469>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114469" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Teff Farm -->
-<ModOp Type="Replace" GUID="114450>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114450" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Spice Farm -->
-<ModOp Type="Replace" GUID="114452>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114452" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Teff Mill -->
-<ModOp Type="Replace" GUID="114459>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114459" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Lobster Fishery -->
-<ModOp Type="Replace" GUID="118729>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="118729" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Wat Kitchen -->
-<ModOp Type="Replace" GUID="114471>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114471" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Pipe Maker -->
-<ModOp Type="Replace" GUID="114472>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114472" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Paper Mill -->
-<ModOp Type="Replace" GUID="117744>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="117744" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Luminer -->
-<ModOp Type="Replace" GUID="114470>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114470" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Apiary -->
-<ModOp Type="Replace" GUID="114453>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114453" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Chandler -->
-<ModOp Type="Replace" GUID="114461>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114461" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
 <!-- Lanternsmith -->
-<ModOp Type="Replace" GUID="114464>" Path="/Values/Building/AssociatedRegions">
+<ModOp Type="Replace" GUID="114464" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
@@ -218,38 +218,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Potato Fertility> -->
-                <Fertility>1010569></Fertility>
+                <!-- Potato Fertility -->
+                <Fertility>1010569</Fertility>
             </Item>
             
             <Item>
-                <!-- Nitre Deposits> -->
-                <Fertility>120017></Fertility>
+                <!-- Nitre Deposits -->
+                <Fertility>120017</Fertility>
             </Item>
             
             <Item>
-                <!-- Sugar Cane Fertility> -->
-                <Fertility>1010573></Fertility>
+                <!-- Sugar Cane Fertility -->
+                <Fertility>1010573</Fertility>
             </Item>
             
             <Item>
-                <!-- Cotton Fertility> -->
-                <Fertility>1010576></Fertility>
+                <!-- Cotton Fertility -->
+                <Fertility>1010576</Fertility>
             </Item>
             
             <Item>
-                <!-- Coffee Fertility> -->
-                <Fertility>120039></Fertility>
+                <!-- Coffee Fertility -->
+                <Fertility>120039</Fertility>
             </Item>
             
             <Item>
-                <!-- Linseed Fertility> -->
-                <Fertility>114343></Fertility>
+                <!-- Linseed Fertility -->
+                <Fertility>114343</Fertility>
             </Item>
             
             <Item>
-                <!-- Indigo Fertility> -->
-                <Fertility>114347></Fertility>
+                <!-- Indigo Fertility -->
+                <Fertility>114347</Fertility>
             </Item>
             
         </Fertilities>
@@ -260,38 +260,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Grain Fertility> -->
-                <Fertility>1010571></Fertility>
+                <!-- Grain Fertility -->
+                <Fertility>1010571</Fertility>
             </Item>
             
             <Item>
-                <!-- Grape Fertility> -->
-                <Fertility>120013></Fertility>
+                <!-- Grape Fertility -->
+                <Fertility>120013</Fertility>
             </Item>
             
             <Item>
-                <!-- Cocoa Fertility> -->
-                <Fertility>1010575></Fertility>
+                <!-- Cocoa Fertility -->
+                <Fertility>1010575</Fertility>
             </Item>
             
             <Item>
-                <!-- Cotton Fertility> -->
-                <Fertility>1010576></Fertility>
+                <!-- Cotton Fertility -->
+                <Fertility>1010576</Fertility>
             </Item>
             
             <Item>
-                <!-- Hibiscus Fertility> -->
-                <Fertility>114352></Fertility>
+                <!-- Hibiscus Fertility -->
+                <Fertility>114352</Fertility>
             </Item>
             
             <Item>
-                <!-- Spice Fertility> -->
-                <Fertility>114348></Fertility>
+                <!-- Spice Fertility -->
+                <Fertility>114348</Fertility>
             </Item>
             
             <Item>
-                <!-- Lobster Abundance> -->
-                <Fertility>118727></Fertility>
+                <!-- Lobster Abundance -->
+                <Fertility>118727</Fertility>
             </Item>
             
         </Fertilities>
@@ -302,38 +302,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Grain Fertility> -->
-                <Fertility>1010571></Fertility>
+                <!-- Grain Fertility -->
+                <Fertility>1010571</Fertility>
             </Item>
             
             <Item>
-                <!-- Grape Fertility> -->
-                <Fertility>120013></Fertility>
+                <!-- Grape Fertility -->
+                <Fertility>120013</Fertility>
             </Item>
             
             <Item>
-                <!-- Cocoa Fertility> -->
-                <Fertility>1010575></Fertility>
+                <!-- Cocoa Fertility -->
+                <Fertility>1010575</Fertility>
             </Item>
             
             <Item>
-                <!-- Caoutchouc Fertility> -->
-                <Fertility>1010574></Fertility>
+                <!-- Caoutchouc Fertility -->
+                <Fertility>1010574</Fertility>
             </Item>
             
             <Item>
-                <!-- Tobacco Fertility> -->
-                <Fertility>1010577></Fertility>
+                <!-- Tobacco Fertility -->
+                <Fertility>1010577</Fertility>
             </Item>
             
             <Item>
-                <!-- Linseed Fertility> -->
-                <Fertility>114343></Fertility>
+                <!-- Linseed Fertility -->
+                <Fertility>114343</Fertility>
             </Item>
             
             <Item>
-                <!-- Indigo Fertility> -->
-                <Fertility>114347></Fertility>
+                <!-- Indigo Fertility -->
+                <Fertility>114347</Fertility>
             </Item>
             
         </Fertilities>
@@ -344,38 +344,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Grain Fertility> -->
-                <Fertility>1010571></Fertility>
+                <!-- Grain Fertility -->
+                <Fertility>1010571</Fertility>
             </Item>
             
             <Item>
-                <!-- Hops Fertility> -->
-                <Fertility>1010572></Fertility>
+                <!-- Hops Fertility -->
+                <Fertility>1010572</Fertility>
             </Item>
             
             <Item>
-                <!-- Cocoa Fertility> -->
-                <Fertility>1010575></Fertility>
+                <!-- Cocoa Fertility -->
+                <Fertility>1010575</Fertility>
             </Item>
             
             <Item>
-                <!-- Corn Fertility> -->
-                <Fertility>120038></Fertility>
+                <!-- Corn Fertility -->
+                <Fertility>120038</Fertility>
             </Item>
             
             <Item>
-                <!-- Plantain Fertility> -->
-                <Fertility>120040></Fertility>
+                <!-- Plantain Fertility -->
+                <Fertility>120040</Fertility>
             </Item>
             
             <Item>
-                <!-- Indigo Fertility> -->
-                <Fertility>114347></Fertility>
+                <!-- Indigo Fertility -->
+                <Fertility>114347</Fertility>
             </Item>
             
             <Item>
-                <!-- Bee Abundance> -->
-                <Fertility>114349></Fertility>
+                <!-- Bee Abundance -->
+                <Fertility>114349</Fertility>
             </Item>
             
         </Fertilities>
@@ -386,38 +386,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Potato Fertility> -->
-                <Fertility>1010569></Fertility>
+                <!-- Potato Fertility -->
+                <Fertility>1010569</Fertility>
             </Item>
             
             <Item>
-                <!-- Red Pepper Fertility> -->
-                <Fertility>1010570></Fertility>
+                <!-- Red Pepper Fertility -->
+                <Fertility>1010570</Fertility>
             </Item>
             
             <Item>
-                <!-- Fur Abundance> -->
-                <Fertility>1010581></Fertility>
+                <!-- Fur Abundance -->
+                <Fertility>1010581</Fertility>
             </Item>
             
             <Item>
-                <!-- Plantain Fertility> -->
-                <Fertility>120040></Fertility>
+                <!-- Plantain Fertility -->
+                <Fertility>120040</Fertility>
             </Item>
             
             <Item>
-                <!-- Pearl Abundance> -->
-                <Fertility>120018></Fertility>
+                <!-- Pearl Abundance -->
+                <Fertility>120018</Fertility>
             </Item>
             
             <Item>
-                <!-- Linseed Fertility> -->
-                <Fertility>114343></Fertility>
+                <!-- Linseed Fertility -->
+                <Fertility>114343</Fertility>
             </Item>
             
             <Item>
-                <!-- Lobster Abundance> -->
-                <Fertility>118727></Fertility>
+                <!-- Lobster Abundance -->
+                <Fertility>118727</Fertility>
             </Item>
             
         </Fertilities>
@@ -428,38 +428,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Red Pepper Fertility> -->
-                <Fertility>1010570></Fertility>
+                <!-- Red Pepper Fertility -->
+                <Fertility>1010570</Fertility>
             </Item>
             
             <Item>
-                <!-- Fur Abundance> -->
-                <Fertility>1010581></Fertility>
+                <!-- Fur Abundance -->
+                <Fertility>1010581</Fertility>
             </Item>
             
             <Item>
-                <!-- Tobacco Fertility> -->
-                <Fertility>1010577></Fertility>
+                <!-- Tobacco Fertility -->
+                <Fertility>1010577</Fertility>
             </Item>
             
             <Item>
-                <!-- Corn Fertility> -->
-                <Fertility>120038></Fertility>
+                <!-- Corn Fertility -->
+                <Fertility>120038</Fertility>
             </Item>
             
             <Item>
-                <!-- Linseed Fertility> -->
-                <Fertility>114343></Fertility>
+                <!-- Linseed Fertility -->
+                <Fertility>114343</Fertility>
             </Item>
             
             <Item>
-                <!-- Indigo Fertility> -->
-                <Fertility>114347></Fertility>
+                <!-- Indigo Fertility -->
+                <Fertility>114347</Fertility>
             </Item>
             
             <Item>
-                <!-- Bee Abundance> -->
-                <Fertility>114349></Fertility>
+                <!-- Bee Abundance -->
+                <Fertility>114349</Fertility>
             </Item>
             
         </Fertilities>
@@ -470,38 +470,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Potato Fertility> -->
-                <Fertility>1010569></Fertility>
+                <!-- Potato Fertility -->
+                <Fertility>1010569</Fertility>
             </Item>
             
             <Item>
-                <!-- Hops Fertility> -->
-                <Fertility>1010572></Fertility>
+                <!-- Hops Fertility -->
+                <Fertility>1010572</Fertility>
             </Item>
             
             <Item>
-                <!-- Nitre Deposits> -->
-                <Fertility>120017></Fertility>
+                <!-- Nitre Deposits -->
+                <Fertility>120017</Fertility>
             </Item>
             
             <Item>
-                <!-- Sugar Cane Fertility> -->
-                <Fertility>1010573></Fertility>
+                <!-- Sugar Cane Fertility -->
+                <Fertility>1010573</Fertility>
             </Item>
             
             <Item>
-                <!-- Coffee Fertility> -->
-                <Fertility>120039></Fertility>
+                <!-- Coffee Fertility -->
+                <Fertility>120039</Fertility>
             </Item>
             
             <Item>
-                <!-- Hibiscus Fertility> -->
-                <Fertility>114352></Fertility>
+                <!-- Hibiscus Fertility -->
+                <Fertility>114352</Fertility>
             </Item>
             
             <Item>
-                <!-- Spice Fertility> -->
-                <Fertility>114348></Fertility>
+                <!-- Spice Fertility -->
+                <Fertility>114348</Fertility>
             </Item>
             
         </Fertilities>
@@ -512,38 +512,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Red Pepper Fertility> -->
-                <Fertility>1010570></Fertility>
+                <!-- Red Pepper Fertility -->
+                <Fertility>1010570</Fertility>
             </Item>
             
             <Item>
-                <!-- Grape Fertility> -->
-                <Fertility>120013></Fertility>
+                <!-- Grape Fertility -->
+                <Fertility>120013</Fertility>
             </Item>
             
             <Item>
-                <!-- Sugar Cane Fertility> -->
-                <Fertility>1010573></Fertility>
+                <!-- Sugar Cane Fertility -->
+                <Fertility>1010573</Fertility>
             </Item>
             
             <Item>
-                <!-- Caoutchouc Fertility> -->
-                <Fertility>1010574></Fertility>
+                <!-- Caoutchouc Fertility -->
+                <Fertility>1010574</Fertility>
             </Item>
             
             <Item>
-                <!-- Plantain Fertility> -->
-                <Fertility>120040></Fertility>
+                <!-- Plantain Fertility -->
+                <Fertility>120040</Fertility>
             </Item>
             
             <Item>
-                <!-- Spice Fertility> -->
-                <Fertility>114348></Fertility>
+                <!-- Spice Fertility -->
+                <Fertility>114348</Fertility>
             </Item>
             
             <Item>
-                <!-- Lobster Abundance> -->
-                <Fertility>118727></Fertility>
+                <!-- Lobster Abundance -->
+                <Fertility>118727</Fertility>
             </Item>
             
         </Fertilities>
@@ -554,38 +554,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Potato Fertility> -->
-                <Fertility>1010569></Fertility>
+                <!-- Potato Fertility -->
+                <Fertility>1010569</Fertility>
             </Item>
             
             <Item>
-                <!-- Fur Abundance> -->
-                <Fertility>1010581></Fertility>
+                <!-- Fur Abundance -->
+                <Fertility>1010581</Fertility>
             </Item>
             
             <Item>
-                <!-- Caoutchouc Fertility> -->
-                <Fertility>1010574></Fertility>
+                <!-- Caoutchouc Fertility -->
+                <Fertility>1010574</Fertility>
             </Item>
             
             <Item>
-                <!-- Tobacco Fertility> -->
-                <Fertility>1010577></Fertility>
+                <!-- Tobacco Fertility -->
+                <Fertility>1010577</Fertility>
             </Item>
             
             <Item>
-                <!-- Coffee Fertility> -->
-                <Fertility>120039></Fertility>
+                <!-- Coffee Fertility -->
+                <Fertility>120039</Fertility>
             </Item>
             
             <Item>
-                <!-- Teff Grass Fertility> -->
-                <Fertility>114345></Fertility>
+                <!-- Teff Grass Fertility -->
+                <Fertility>114345</Fertility>
             </Item>
             
             <Item>
-                <!-- Bee Abundance> -->
-                <Fertility>114349></Fertility>
+                <!-- Bee Abundance -->
+                <Fertility>114349</Fertility>
             </Item>
             
         </Fertilities>
@@ -596,38 +596,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Grain Fertility> -->
-                <Fertility>1010571></Fertility>
+                <!-- Grain Fertility -->
+                <Fertility>1010571</Fertility>
             </Item>
             
             <Item>
-                <!-- Hops Fertility> -->
-                <Fertility>1010572></Fertility>
+                <!-- Hops Fertility -->
+                <Fertility>1010572</Fertility>
             </Item>
             
             <Item>
-                <!-- Nitre Deposits> -->
-                <Fertility>120017></Fertility>
+                <!-- Nitre Deposits -->
+                <Fertility>120017</Fertility>
             </Item>
             
             <Item>
-                <!-- Sugar Cane Fertility> -->
-                <Fertility>1010573></Fertility>
+                <!-- Sugar Cane Fertility -->
+                <Fertility>1010573</Fertility>
             </Item>
             
             <Item>
-                <!-- Plantain Fertility> -->
-                <Fertility>120040></Fertility>
+                <!-- Plantain Fertility -->
+                <Fertility>120040</Fertility>
             </Item>
             
             <Item>
-                <!-- Teff Grass Fertility> -->
-                <Fertility>114345></Fertility>
+                <!-- Teff Grass Fertility -->
+                <Fertility>114345</Fertility>
             </Item>
             
             <Item>
-                <!-- Spice Fertility> -->
-                <Fertility>114348></Fertility>
+                <!-- Spice Fertility -->
+                <Fertility>114348</Fertility>
             </Item>
             
         </Fertilities>
@@ -638,38 +638,38 @@
         <Fertilities>
             
             <Item>
-                <!-- Hops Fertility> -->
-                <Fertility>1010572></Fertility>
+                <!-- Hops Fertility -->
+                <Fertility>1010572</Fertility>
             </Item>
             
             <Item>
-                <!-- Fur Abundance> -->
-                <Fertility>1010581></Fertility>
+                <!-- Fur Abundance -->
+                <Fertility>1010581</Fertility>
             </Item>
             
             <Item>
-                <!-- Cotton Fertility> -->
-                <Fertility>1010576></Fertility>
+                <!-- Cotton Fertility -->
+                <Fertility>1010576</Fertility>
             </Item>
             
             <Item>
-                <!-- Coffee Fertility> -->
-                <Fertility>120039></Fertility>
+                <!-- Coffee Fertility -->
+                <Fertility>120039</Fertility>
             </Item>
             
             <Item>
-                <!-- Pearl Abundance> -->
-                <Fertility>120018></Fertility>
+                <!-- Pearl Abundance -->
+                <Fertility>120018</Fertility>
             </Item>
             
             <Item>
-                <!-- Hibiscus Fertility> -->
-                <Fertility>114352></Fertility>
+                <!-- Hibiscus Fertility -->
+                <Fertility>114352</Fertility>
             </Item>
             
             <Item>
-                <!-- Teff Grass Fertility> -->
-                <Fertility>114345></Fertility>
+                <!-- Teff Grass Fertility -->
+                <Fertility>114345</Fertility>
             </Item>
             
         </Fertilities>
@@ -1002,44 +1002,106 @@
       Unhide:
       - Goat Farm
     -->
-<Asset>
-    <Template>Trigger</Template>
-    <Values>
-        <Standard>
-            <GUID>1337471201</GUID>
-        </Standard>
-        <Trigger>
-            <TriggerCondition>
-                <Template>ConditionPlayerCounter</Template>
-                <Values>
-                    <Condition/>
-                    <ConditionPlayerCounter>
-                        <PlayerCounter>PopulationByLevel</PlayerCounter>
-                        <Context>15000000</Context>
-                        <CounterAmount>50</CounterAmount>
-                    </ConditionPlayerCounter>
-                </Values>
-            </TriggerCondition>
-            <TriggerActions>
-                <Item>
-                    <TriggerAction>
-                        <Template>ActionUnlockAsset</Template>
-                        <Values>
-                            <Action/>
-                            <ActionUnlockAsset>
-                                <UnhideAssets>
-                                    <Item>
-                                        <Asset>114456</Asset>
-                                    </Item>
-                                </UnhideAssets>
-                            </ActionUnlockAsset>
-                        </Values>
-                    </TriggerAction>
-                </Item>
-            </TriggerActions>
-        </Trigger>
-        <TriggerSetup/>
-    </Values>
-</Asset>
+<ModOp Type="AddNextSibling" GUID="130248">
+    <Asset>
+        <Template>Trigger</Template>
+        <Values>
+            <Standard>
+                <GUID>1337471201</GUID>
+            </Standard>
+            <Trigger>
+                <TriggerCondition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                        <Condition/>
+                        <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000000</Context>
+                            <CounterAmount>50</CounterAmount>
+                        </ConditionPlayerCounter>
+                    </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                    <Item>
+                        <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                                <Action/>
+                                <ActionUnlockAsset>
+                                    <UnhideAssets>
+                                        <Item>
+                                            <Asset>114456</Asset>
+                                        </Item>
+                                    </UnhideAssets>
+                                </ActionUnlockAsset>
+                            </Values>
+                        </TriggerAction>
+                    </Item>
+                </TriggerActions>
+            </Trigger>
+            <TriggerSetup/>
+        </Values>
+    </Asset>
+</ModOp>
+
+<!--
+    ====================================================
+      100 Farmers
+    ========================================================
+      Unlock:
+      - Goat Farm
+    -->
+<ModOp Type="AddNextSibling" GUID="130248">
+    <Asset>
+        <Template>Trigger</Template>
+        <Values>
+            <Standard>
+                <GUID>1337471202</GUID>
+            </Standard>
+            <Trigger>
+                <TriggerCondition>
+                    <Template>ConditionPlayerCounter</Template>
+                    <Values>
+                        <Condition/>
+                        <ConditionPlayerCounter>
+                            <PlayerCounter>PopulationByLevel</PlayerCounter>
+                            <Context>15000000</Context>
+                            <CounterAmount>100</CounterAmount>
+                        </ConditionPlayerCounter>
+                    </Values>
+                </TriggerCondition>
+                <TriggerActions>
+                    <Item>
+                        <TriggerAction>
+                            <Template>ActionUnlockAsset</Template>
+                            <Values>
+                                <Action/>
+                                <ActionUnlockAsset>
+                                    <UnlockAssets>
+                                        <Item>
+                                            <Asset>114456</Asset>
+                                        </Item>
+                                    </UnlockAssets>
+                                </ActionUnlockAsset>
+                            </Values>
+                        </TriggerAction>
+                    </Item>
+                </TriggerActions>
+            </Trigger>
+            <TriggerSetup/>
+        </Values>
+    </Asset>
+</ModOp>
+    <!-- endregion -->
+
+    <!-- region Update Construction Menus for Old World -->
+    <!-- Farmers Construction Category -->
+<!-- After Work Clothes Menu -->
+<ModOp Type="AddNextSibling" GUID="25000189" Path="/Values/ConstructionCategory/BuildingList/Item[8]">
+    <!-- Goat Farm -->
+    <Item>
+        <Building>114456</Building>
+    </Item>
+</ModOp>
     <!-- endregion -->
 </ModOps>
