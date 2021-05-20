@@ -97,6 +97,51 @@
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
+<!-- Plantain Grove -->
+<ModOp Type="Replace" GUID="101280" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Cotton Field -->
+<ModOp Type="Replace" GUID="1010336" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Sugar Cane Crop -->
+<ModOp Type="Replace" GUID="1010334" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Alpaca Pasture -->
+<ModOp Type="Replace" GUID="101283" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Cornfield -->
+<ModOp Type="Replace" GUID="101282" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Coffee Crop -->
+<ModOp Type="Replace" GUID="101253" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Tobacco Field -->
+<ModOp Type="Replace" GUID="1010335" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Cocoa Grove -->
+<ModOp Type="Replace" GUID="1010337" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Apiary Field -->
+<ModOp Type="Replace" GUID="114496" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
 <!-- Goat Farm -->
 <ModOp Type="Replace" GUID="114456" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
@@ -204,6 +249,41 @@
 
 <!-- Lanternsmith -->
 <ModOp Type="Replace" GUID="114464" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Goat Pen -->
+<ModOp Type="Replace" GUID="114498" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Flax Field -->
+<ModOp Type="Replace" GUID="114490" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Sanga Field -->
+<ModOp Type="Replace" GUID="114499" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Hibiscus Field -->
+<ModOp Type="Replace" GUID="114488" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Teff Grass Field -->
+<ModOp Type="Replace" GUID="114492" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Indigo Field -->
+<ModOp Type="Replace" GUID="114494" Path="/Values/Building/AssociatedRegions">
+    <AssociatedRegions>Moderate</AssociatedRegions>
+</ModOp>
+
+<!-- Spice Field -->
+<ModOp Type="Replace" GUID="114495" Path="/Values/Building/AssociatedRegions">
     <AssociatedRegions>Moderate</AssociatedRegions>
 </ModOp>
 
