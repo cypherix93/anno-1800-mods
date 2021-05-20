@@ -1,0 +1,83 @@
+<%
+var workforce = {
+    Farmer: 1010052,
+    Worker: 1010115,
+    Artisan: 1010116,
+    Engineer: 1010117
+}
+
+var buildings = [
+    {
+        guid: 114456,
+        name: 'Goat Farm',
+        maintenance: {
+            activeCoins: 20,
+            inactiveCoins: 10,
+            // originally 30 Shepherds
+            workforceGuid: workforce.Farmer,
+            workforceAmount: 40
+        },
+        cost: {
+            Coins: 500,
+            Wood: 8 // originally 5
+        }
+    }
+]
+%>
+
+<% for (var building of buildings) { %>
+    <!-- <%= building.name %> -->
+    <ModOp Type="Replace" GUID="<%= building.guid %>" Path="/Values/Maintenance/Maintenances">
+        <Maintenances>
+            <Item>
+                <Product>1010017</Product>
+                <Amount><%= building.maintenance.activeCoins %></Amount>
+                <InactiveAmount><%= building.maintenance.inactiveCoins %></InactiveAmount>
+            </Item>
+            <Item>
+                <Product><%= building.maintenance.workforceGuid %></Product>
+                <Amount><%= building.maintenance.workforceAmount %></Amount>
+            </Item>
+        </Maintenances>
+    </ModOp>
+    <ModOp Type="Replace" GUID="114456" Path="/Values/Cost/Costs">
+        <Costs>
+            <Item>
+                <Ingredient>1010017</Ingredient>
+                <% if (building.cost.Coins) { %>
+                    <Amount><%= building.cost.Coins %></Amount>
+                <% } %>
+            </Item>
+            <Item>
+                <Ingredient>1010196</Ingredient>
+                <% if (building.cost.Wood) { %>
+                    <Amount><%= building.cost.Wood %></Amount>
+                <% } %>
+            </Item>
+            <Item>
+                <Ingredient>1010205</Ingredient>
+                <% if (building.cost.Bricks) { %>
+                    <Amount><%= building.cost.Bricks %></Amount>
+                <% } %>
+            </Item>
+            <Item>
+                <Ingredient>1010218</Ingredient>
+                <% if (building.cost.Steel) { %>
+                    <Amount><%= building.cost.Steel %></Amount>
+                <% } %>
+            </Item>
+            <Item>
+                <Ingredient>1010207</Ingredient>
+                <% if (building.cost.Windows) { %>
+                    <Amount><%= building.cost.Windows %></Amount>
+                <% } %>
+            </Item>
+            <Item>
+                <Ingredient>1010202</Ingredient>
+                <% if (building.cost.Concrete) { %>
+                    <Amount><%= building.cost.Concrete %></Amount>
+                <% } %>
+            </Item>
+        </Costs>
+    </ModOp>
+<% } %>
